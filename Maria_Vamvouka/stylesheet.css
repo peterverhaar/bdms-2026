@@ -1,0 +1,22 @@
+body {
+  background-color: #DEF7D2;
+}
+h1 {
+	color:#000066
+}
+body {
+	font-family: Arial
+}
+body {
+	margin-left: 10%; margin-right: 10%
+}
+img {
+	display: block;
+	margin: auto;
+}
+a { color: #003366; text-decoration: none; } 
+a:visited { color: #660066; text-decoration: none; } 
+a:hover { color: black; text-decoration: underline; } 
+table, th, td {
+  border: 1px solid black;
+}
