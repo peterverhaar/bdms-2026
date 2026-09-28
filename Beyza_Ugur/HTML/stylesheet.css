@@ -1,0 +1,14 @@
+body {
+  background-color: #e6d9bf;
+      }
+  p {
+      font-family: Palatino, Helvetica, Arial; color: #840f00
+    }
+  h{  
+    font-family: Helvetica; color: #8d3600;
+    }
+
+  .image-container {   display: flex; /* Aligns child elements side by side */ 
+                        gap: 15px; /* Adds space between the images */ 
+                        align-items: center; /* Vertically aligns images if heights differ */ 
+                    }
