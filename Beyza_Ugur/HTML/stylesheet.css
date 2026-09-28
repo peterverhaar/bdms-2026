@@ -1,14 +1,59 @@
+/* Body, fonts, colors*/
 body {
   background-color: #e6d9bf;
       }
-  p {
-      font-family: Palatino, Helvetica, Arial; color: #840f00
+  p, li, tr{
+      font-family: Palatino Linotype, Helvetica, Arial; color: #480a02
     }
-  h{  
-    font-family: Helvetica; color: #8d3600;
+  
+  h1,h2,h3{  
+    font-family: Georgia, Helvetica; color: #8d3600;
     }
+    h1,h2{text-align: center; size: large;}
 
-  .image-container {   display: flex; /* Aligns child elements side by side */ 
-                        gap: 15px; /* Adds space between the images */ 
-                        align-items: center; /* Vertically aligns images if heights differ */ 
+/* image stuff */
+img {
+  display: block;
+  margin: 0 auto; /* Centers the image horizontally */
+  height: 200px;
+}
+
+.image-container {   
+                  display: flex; /* Aligns child elements side by side */ 
+                  gap: 20px; /* Adds space between the images */
+                  justify-content: center; /* allignment on page*/ 
+                  align-items: center; /* Vertically aligns images if heights differ */ 
                     }
+
+/* link stuff */
+/* Unvisited links: color #003366 and no underline */
+a:link {
+  color: #003366;
+  text-decoration: none;
+}
+
+/* Visited links: color #660066 */
+a:visited {
+  color: #660066;
+  text-decoration: none;
+}
+
+/* Hover state: underline when mouse hovers over link text */
+a:hover {
+  text-decoration: underline;
+}
+
+/* table stuff */
+table {
+  width: 100%;
+  border-collapse: collapse; /* Merges adjacent cell borders into a single border */
+  margin: 20px 0;            /* Adds vertical spacing around the table */
+}
+
+/* Table Header and Data Cells */
+td, th {
+  border: 1px solid #8d3600; /* Solid 1px border matching your header color */
+  padding: 10px 15px;         /* Inner cell spacing so text isn't cramped */
+  background-color: #e6d9bf; /* Light background color for contrast against page */
+  
+}
