@@ -1,0 +1,59 @@
+ :root {
+  /* Vintage Denim — ihatecolors */
+  --color-bg: #3E5A78;
+  --color-accent: #7A94A8;
+  --color-secondary: #B8C0C0;
+  --color-text: #5E4634;
+}
+
+ body {
+   background-color: var(--color-bg);
+   color: var(--color-secondary);
+ }
+
+ a {
+   color: var(--color-secondary);
+ }
+
+ table {
+   border-collapse: collapse;
+ }
+
+ td {
+   border: 1px solid var(--color-accent);
+   padding: 0.5rem;
+ }
+
+ td:first-child {
+   background-color: var(--color-secondary);
+   color: var(--color-text);
+   font-weight: bold;
+ }
+body {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top:10%;
+  margin-bottom:10%
+}
+
+h5 {
+  color: var(--color-accent);
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+b {
+  color: var(--color-accent);
+}
+
+td:first-child b {
+  color: var(--color-text);
+}
+
+p {
+  text-indent: 2em;
+}
