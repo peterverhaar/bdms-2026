@@ -1,0 +1,9 @@
+body {font-style: Baskerville, Garamond, Calibri, Aptos, Helvetica, sans-serif;}
+body { margin-left: 10%; margin-right: 10%;}
+h1 {color: #000066;}
+/* new links */
+a { color: #003366; text-decoration: none; }
+/* visited links */
+a:visited { color: #660066; text-decoration: none; }
+/* mouse-over */
+a:hover { color: black; text-decoration: underline; }
