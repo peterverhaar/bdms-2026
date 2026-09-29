@@ -1,0 +1,14 @@
+	<style>
+	title {font-family: ‘Arial’, sans-serif;}
+	h1 {font-family: ‘Arial’, sans-serif;}
+	h2 {font-family: ‘Arial’, sans-serif;}
+	body { margin-left: 15%; margin-right: 15%;font-family: ‘Baskerville’, serif;}
+
+	h1 {text-align: center;}
+	h2 {text-align: center;}
+	body {text-align: justify;}
+
+	body {background-color: #b6bdd6; color(#4a7184);}
+	h1 {color: #4a7184}
+	h2 {color: #4a7184}
+	</style>
