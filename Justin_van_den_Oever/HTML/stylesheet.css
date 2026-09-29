@@ -1,0 +1,5 @@
+h1{color:#000066;}
+a { color: #003366; text-decoration: none; }
+a:visited { color: #660066; text-decoration: none; } 
+a:hover { color: #003366; text-decoration: underline; }
+body { margin-left: 10%; margin-right: 10%; font-family: Verdana}
