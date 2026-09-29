@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: white;
+}
+
+{ margin-left: 20%; margin-right: 20%
+}
+
+h1 {
+  color: #1434A4 ;
+  text-align: center;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;;
+  font-size: 12px;
+}
+
+/* new links */
+a { color: #088F8F; text-decoration: none; }
+
+/* visited links */
+a:visited { color: 	#6495ED; text-decoration: none; }
+
+/* mouse-over */
+a:hover { color: #0818A8; text-decoration: underline; }
+
+/* active links*/
+a:active { color: black ; text-decoration: underline ; }
+
+</style>
+</head>
+</html>
+
+
