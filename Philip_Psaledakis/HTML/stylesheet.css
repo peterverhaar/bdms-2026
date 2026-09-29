@@ -1,0 +1,8 @@
+body {margin-left: 10%; margin-right: 10%; font style: Garamond}
+h1 {color: #000066}
+/* new links */
+a {color: #003366; text-decoration: none}
+/* visited links */
+a {color: #660066; text-decoration: none}
+/* mouse-over */
+a:hover {color: #003366; text-decoration: underline}
