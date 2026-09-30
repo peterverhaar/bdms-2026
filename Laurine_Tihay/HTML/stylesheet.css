@@ -1,6 +1,12 @@
-body {font-style: Baskerville, Garamond, Calibri, Aptos, Helvetica, sans-serif;}
-body { margin-left: 10%; margin-right: 10%;}
-h1 {color: #000066;}
+body {
+  font-family: "Garamond", "Times New Roman"; font-size: 17px; background-color: #81aeb4; color: #16120f; text-align: justify;
+}
+body { 
+    margin-left: 25%; 
+    margin-right: 25%;
+}
+h1 {color: #003a66;}
+h2 {color: #4e4b1e;}
 /* new links */
 a { color: #003366; text-decoration: none; }
 /* visited links */
