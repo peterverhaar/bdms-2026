@@ -3,24 +3,31 @@
 <head>
 <style>
 body {
-  background-color: white;
+  background-color: #D3D3D3;
 }
 
-{ margin-left: 20%; margin-right: 20%
+{ margin-left: 40%; margin-right: 40%
 }
 
 h1 {
   color: #1434A4 ;
   text-align: center;
+  font-family: "Times New Roman", Times, serif;;
+  font-size: 14px;
 }
-
+h2 {
+  color: #1434A4 ;
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;;
+  font-size: 14px;
+}
 p {
   font-family: "Times New Roman", Times, serif;;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 /* new links */
-a { color: #088F8F; text-decoration: none; }
+a { color: #0818A8; text-decoration: none; }
 
 /* visited links */
 a:visited { color: 	#6495ED; text-decoration: none; }
