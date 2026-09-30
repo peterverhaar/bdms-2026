@@ -1,7 +1,12 @@
 body { font-family: Arial; font-size: 15px; background-color: #a8ccff; color: #033985; margin-right: 10%; margin-left: 10%;}
-h1 { color: #03295e; }
-h2 { color: #03295e; }
-img.me { float: right; padding: 5px;}
+h1 { color: #03295e;}
+h2 { color: #03295e;}
+img.me { float:right; padding: 5px;}
 a { color: #003366; text-decoration: none;}
 a:visited { color: #660066; text-decoration: none;}
 a:hover {color: black; text-decoration: underline;}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;}
+td.first {text-align: center;}
+td.second {text-align: left;}
