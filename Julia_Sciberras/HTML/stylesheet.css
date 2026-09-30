@@ -1,0 +1,31 @@
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #000066;
+}
+
+a {
+    color: #003366;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #660066;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 8px;
+    vertical-align: top;
+}
