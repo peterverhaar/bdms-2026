@@ -21,3 +21,7 @@ a:visited { color: #660066; text-decoration: none; }
 a:hover { color: #003366; text-decoration: underline; }  
 /* active links*/ 
 a:active { color: black ; text-decoration: underline ; }
+
+table { border: 2px solid #CF6F1B; width: 100%; border-collapse: collapse; }
+
+td, th { border: 2px solid #CF6F1B; padding: 10px 15px; }
