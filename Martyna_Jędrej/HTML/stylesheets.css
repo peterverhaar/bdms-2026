@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h1 {
+  color: #000066;
+}
+
+a:link {
+  color: #003366;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #660066;
+}
+
+a:hover {
+  text-decoration: underline;
+}
