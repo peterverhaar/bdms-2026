@@ -1,6 +1,6 @@
 body { font-family: Arial; font-size: 15px; background-color: #a8ccff; color: #033985; margin-right: 10%; margin-left: 10%;}
-h1 { color: #03295e;}
-h2 { color: #03295e;}
+h1 { color: #03295e; font-style: italic;}
+h2 { color: #03295e; font-style: italic;}
 img.me { float:right; padding: 5px;}
 a { color: #003366; text-decoration: none;}
 a:visited { color: #660066; text-decoration: none;}
