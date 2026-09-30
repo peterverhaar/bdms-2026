@@ -9,4 +9,4 @@ table, th, td {
   border: 1px solid black;
   border-collapse: collapse;}
 td.first {text-align: center;}
-td.second {text-align: left;}
+td.second {text-align: left; padding: 5px;}
