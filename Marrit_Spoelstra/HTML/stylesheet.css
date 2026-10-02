@@ -1,9 +1,247 @@
-body {margin-left: 10%; margin-right: 10%; font-family: Garamond}
-h1 {color: #000066}
+body {
+    margin-left: 10%; 
+    margin-right: 10%; 
+    font-family: Garamond;
+    background-color: #b6c5d6;
+}
+h1 {
+    color: #000066;
+    text-align: center;
+    align-items: center;
+    justify-content: center;      
+}
+
+h2 {
+    color: #000066;
+    text-align: center;
+    align-items: center;
+    justify-content: center;      
+}
+
+h4 {
+    color: #000066;
+    text-align: center;
+    align-items: center;
+    justify-content: center;    
+    font-style: italic;  
+    letter-spacing: 0.5px; 
+}
+
+p {
+    color: #000000; 
+    font-size: 16px;   
+    align-items: top;
+    text-align: left;
+    vertical-align: top;
+    font-family: Garamond;
+}
+
+
+button:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+button:hover {
+    color: #bc0000;
+    text-decoration: none;
+}
 /* new links */
 a {color: #003366 ; text-decoration: none;}
 /* visited links */
-a:visited {color: #660066; text-decoration: none;}
+a:visited {color: #fdfdfd; text-decoration: none;}
 /* mouse-over */
-a:hover { color: black; text-decoration: underline;}
-{ background-color: #8d9eb3}
+a:hover { color: rgb(224, 4, 4); text-decoration: underline;}
+
+ul {
+  list-style-type: none;
+}
+
+.page{
+   display: none;
+
+} 
+
+.page:target {
+  display: initial;
+
+}
+
+.page:target ~ .initial  {
+  display: none;
+}
+
+.nav {
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  /* grid-template-rows: 1fr 2fr; */
+  margin-left: 0%;      
+    margin-right: 0%; 
+    padding: 0px;
+    background-color: #b39f1f;
+    border-radius: 10px;
+
+}
+
+.nav li::before {
+  list-style-type: none;
+  content: none;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.NavButtons {
+  /* grid-template-rows: 1fr 2fr; */
+  margin-left: 0%;      
+    margin-right: 0%; 
+    padding: 0px;
+}
+
+.navButton {
+  color: white;
+  /* margin: 0 10px 0 10px; */
+  padding: 5% 5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* border-radius: 5px; */
+  width: 90%;
+  text-decoration: none;
+}
+
+.sections {
+    background-color: #a95e5e;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    z-index: 1;
+    position: relative;
+}
+
+.sections p {
+    color: #000000; 
+    font-size: 16px;   
+    align-items: top;
+    text-align: left;
+    vertical-align: top;
+    font-family: Garamond;
+    padding: 0px 30px 0px 30px;
+}
+
+.AboutMeContainer {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  /* align-items: center; */
+  justify-content: space-between;
+  gap: 20px; /* Adjust the gap as needed */
+  padding-right: 20px; /* Optional: Add padding to the right */
+}
+
+.AboutMeContainer img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* Optional: Add rounded corners to the image */
+  background-color: #642222;
+  padding: 10px; /* Optional: Add padding around the image */
+}
+
+.aboutMeContainer p {
+  margin: 0; /* Remove default margin */
+}
+
+li {
+    list-style: none;
+}
+
+li::before {
+    content: "♥ "; /* Add a bullet point */
+    color: #000066; /* Change the color of the bullet point */
+    font-weight: bold; /* Make the bullet point bold */
+}
+
+.BDMSTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.BDMSTable tr  {
+    display: grid;
+  grid-template-columns: minmax(0, 100px) minmax(0, 9fr);
+}
+
+.BDMSTable td {
+    border: 1px solid #050512;
+    padding: 10px;
+    text-align: left;
+}
+
+.logoImage {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Adjust the margin as needed */
+} 
+
+
+/* Falling animation  */
+.falling {
+  position: fixed;
+  top: -20px;
+  z-index: 0;
+  pointer-events: none;
+  animation:  
+    fall 5s linear infinite,
+    sway 1s ease-in-out infinite alternate;
+}
+
+.falling:nth-of-type(1) { 
+    left: 10%; 
+     animation-delay: 0s;
+     animation-duration: 5s
+}
+.falling:nth-of-type(2) { 
+    left: 30%;
+    animation-delay: 1s;
+    animation-duration: 7s; 
+}
+.falling:nth-of-type(3) { 
+    left: 50%; 
+    animation-delay: 2s;
+    animation-duration: 6s;
+}
+.falling:nth-of-type(4) { 
+    left: 70%;
+    animation-delay: 3s; 
+    animation-duration: 8s;
+}
+.falling:nth-of-type(5) { 
+    left: 90%;
+    animation-delay: 4s; 
+    animation-duration: 5.5s;
+}
+
+
+
+
+@keyframes fall {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(110vh);
+  }
+}
+
+
+@keyframes sway {
+  from {
+    margin-left: 100px;
+  }
+
+  to {
+    margin-left: -100px;
+  }
+}
+
