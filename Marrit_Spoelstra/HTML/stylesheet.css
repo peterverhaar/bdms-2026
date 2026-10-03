@@ -2,24 +2,24 @@ body {
     margin-left: 10%; 
     margin-right: 10%; 
     font-family: Garamond;
-    background-color: #b6c5d6;
+    background-color: #6B2E2F;
 }
 h1 {
-    color: #000066;
+    color: #a3ae9a;
     text-align: center;
     align-items: center;
     justify-content: center;      
 }
 
 h2 {
-    color: #000066;
+    color: #E8D1A7;
     text-align: center;
     align-items: center;
     justify-content: center;      
 }
 
 h4 {
-    color: #000066;
+    color: #442d1c;
     text-align: center;
     align-items: center;
     justify-content: center;    
@@ -28,30 +28,35 @@ h4 {
 }
 
 p {
-    color: #000000; 
+    color: #442D1C; 
     font-size: 16px;   
     align-items: top;
     text-align: left;
     vertical-align: top;
-    font-family: Garamond;
+    font-family: Oswald;
 }
 
 
 button:visited {
-    color: #ffffff;
+    color: #E8D1A7;
     text-decoration: none;
 }
 
+
 button:hover {
-    color: #bc0000;
+    color: #AFAED1;
     text-decoration: none;
 }
 /* new links */
-a {color: #003366 ; text-decoration: none;}
+a {color: #442D1C ; 
+    text-decoration: none;
+    font-weight: bold;
+    }
 /* visited links */
-a:visited {color: #fdfdfd; text-decoration: none;}
+a:visited {color: #442D1C; text-decoration: none;}
 /* mouse-over */
-a:hover { color: rgb(224, 4, 4); text-decoration: underline;}
+a:hover { color: rgb(83, 14, 14); text-decoration: underline;}
+
 
 ul {
   list-style-type: none;
@@ -78,7 +83,7 @@ ul {
   margin-left: 0%;      
     margin-right: 0%; 
     padding: 0px;
-    background-color: #b39f1f;
+    background-color: #E8D1A7;
     border-radius: 10px;
 
 }
@@ -112,7 +117,7 @@ ul {
 }
 
 .sections {
-    background-color: #a95e5e;
+    background-color: #45503B;
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
     padding: 20px;
@@ -121,7 +126,7 @@ ul {
 }
 
 .sections p {
-    color: #000000; 
+    color: #E8D1A7; 
     font-size: 16px;   
     align-items: top;
     text-align: left;
@@ -143,7 +148,7 @@ ul {
   max-width: 100%;
   height: auto;
   border-radius: 10px; /* Optional: Add rounded corners to the image */
-  background-color: #642222;
+  background-color: #6B2E2F; /* Optional: Add a background color to the image */
   padding: 10px; /* Optional: Add padding around the image */
 }
 
@@ -157,7 +162,7 @@ li {
 
 li::before {
     content: "♥ "; /* Add a bullet point */
-    color: #000066; /* Change the color of the bullet point */
+    color: #442D1C; /* Change the color of the bullet point */
     font-weight: bold; /* Make the bullet point bold */
 }
 
@@ -172,7 +177,7 @@ li::before {
 }
 
 .BDMSTable td {
-    border: 1px solid #050512;
+    border: 1px solid #442D1C;
     padding: 10px;
     text-align: left;
 }
