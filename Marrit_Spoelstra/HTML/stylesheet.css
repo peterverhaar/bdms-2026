@@ -3,6 +3,7 @@ body {
     margin-right: 10%; 
     font-family: Garamond;
     background-color: #6B2E2F;
+    color: #E8D1A7;
 }
 h1 {
     color: #a3ae9a;
@@ -10,38 +11,33 @@ h1 {
     align-items: center;
     justify-content: center;      
 }
-
 h2 {
     color: #E8D1A7;
     text-align: center;
     align-items: center;
     justify-content: center;      
 }
-
 h4 {
-    color: #442d1c;
+    color: #a3ae9a;
     text-align: center;
     align-items: center;
     justify-content: center;    
     font-style: italic;  
     letter-spacing: 0.5px; 
 }
-
 p {
-    color: #442D1C; 
+    color: #e8d1a7; 
     font-size: 16px;   
     align-items: top;
     text-align: left;
     vertical-align: top;
-    font-family: Oswald;
+    font-family: Garamond;
 }
-
 
 button:visited {
     color: #E8D1A7;
     text-decoration: none;
 }
-
 
 button:hover {
     color: #AFAED1;
@@ -57,9 +53,8 @@ a:visited {color: #442D1C; text-decoration: none;}
 /* mouse-over */
 a:hover { color: rgb(83, 14, 14); text-decoration: underline;}
 
-
 ul {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 .page{
@@ -78,8 +73,8 @@ ul {
 
 .nav {
     display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  /* grid-template-rows: 1fr 2fr; */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 2fr; */
   margin-left: 0%;      
     margin-right: 0%; 
     padding: 0px;
@@ -99,7 +94,7 @@ ul {
 .NavButtons {
   /* grid-template-rows: 1fr 2fr; */
   margin-left: 0%;      
-    margin-right: 0%; 
+  margin-right: 0%; 
     padding: 0px;
 }
 
@@ -135,6 +130,12 @@ ul {
     padding: 0px 30px 0px 30px;
 }
 
+.logoImage {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Adjust the margin as needed */
+} 
+
 .AboutMeContainer {
   display: grid;
   grid-template-columns: 5fr 1fr;
@@ -156,8 +157,44 @@ ul {
   margin: 0; /* Remove default margin */
 }
 
-li {
-    list-style: none;
+.FavouriteBooksContainer {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    justify-content: space-between;
+    gap: 20px;
+    padding-right: 20px;
+}
+
+.FavouriteBooksContainer img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background-color: #6B2E2F;
+    padding: 10px;
+}
+
+.FavouriteBooksContainer ul {
+    margin: 0;
+}
+
+.FavouriteFilmsContainer {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    justify-content: space-between;
+    gap: 20px;
+    padding-right: 20px;
+}
+
+.FavouriteFilmsContainer img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background-color: #6B2E2F;
+    padding: 10px;
+}
+
+.FavouriteFilmsContainer ul {
+    margin: 0;
 }
 
 li::before {
@@ -182,11 +219,6 @@ li::before {
     text-align: left;
 }
 
-.logoImage {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px; /* Adjust the margin as needed */
-} 
 
 
 /* Falling animation  */
