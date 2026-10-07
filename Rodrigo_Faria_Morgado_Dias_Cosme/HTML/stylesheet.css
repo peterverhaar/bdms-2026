@@ -1,0 +1,429 @@
+* {box-sizing: border-box}
+.tab-toggle {display: none}
+
+/*============================*/
+/*---------- HEADER ----------*/
+.header { /*This is an overall format for the whole header.*/
+    z-index: 100; /*This brings the header to the front.*/
+    position: fixed; /*This fixes the header in place.*/
+    /*The header position is defined by these parameters:*/
+    top: 0;
+    left: 0;
+
+    /*The header size is defined by these parameters:*/
+    width: 100%;
+    height: 120px;
+
+    /*The positions of the header items are defined by these parameters:*/
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /*This is the header style:*/
+    background-color: #72A43C;
+    box-shadow: 0px 2px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.myname { /*This is the format of the top-left title - my name.*/
+    margin-left: 35px;
+    margin-right: 80px;
+
+    color: white;
+    font-family: Lexend, Arial;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/*This is a <nav> element (works like <div>) for the menu
+options on the top-right:*/
+.nav-menu {
+    display: flex;
+    gap: 15px; /*Spacing between the buttons.*/
+    align-items: center;
+    justify-content: center;
+}
+
+/*This is the format of the menu buttons:*/
+.menu-btn {
+    user-select: none;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+
+    background-color: #D9F43F;
+    color: #052D23;
+    font-family: League Spartan, Arial;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 3px 4px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*This is the format of the menu buttons when the user hovers over them:*/
+.menu-btn:hover {
+    opacity: 0.85;
+    /*This will make the opacity change smoothly (over 0.15 seconds):*/
+    transition: opacity 0.15s;
+}
+
+/*This is the format of the menu buttons when they are active:*/
+#tab-home:checked ~ .header .menu-btn[for="tab-home"],
+#tab-myba:checked ~ .header .menu-btn[for="tab-myba"],
+#tab-recs:checked ~ .header .menu-btn[for="tab-recs"] {
+    background-color: #FAFEE7;
+    color: black;
+}
+
+/*=============================*/
+/*---------- SIDEBAR ----------*/
+.sidebar { /*This is an overall format for the whole sidebar.*/
+    z-index: 90; /*This brings the sidebar to the front, but not in front of the header.*/
+    position: fixed; /*This fixes the sidebar in place.*/
+    display: flex;
+    flex-direction: column; /*Stacks the items on top of each other instead of side by side.*/
+
+    /*The sidebar position is defined by these parameters:*/
+    top: 150px; /*Distance from window top - not from header.*/
+    left: 30px;
+
+    /*The sidebar size is defined by these parameters:*/
+    width: 244px;
+    height: 508px;
+
+    gap: 0; /*Spacing between the two items in the sidebar.*/
+
+    background-color: #72A43C;
+    border-radius: 25px;
+    box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.sidebar-image {
+    /*This centres the image within its DIV.*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /*This leaves some space between the image and the ends of the sidebar.*/
+    margin-top: 22px;
+    margin-left: 22px;
+    /*No RIGHT margin needed because of the WIDTH of the image.*/
+    /*No BOTTOM margin needed because of the HEIGHT of the image.*/
+
+    width: 200px;
+    /*The aspect ratio of the image is 2x3, so the height is
+    automatically set to 300px.*/
+
+    /*
+    To get a border radius for the image that matches the sidebar...
+    [border radius of sidebar] / [smallest sidebar dimension (width)]
+    = 25 / 244
+    ~ 0.1 = x
+
+    THEN:
+    x * [smallest dimension of image (width)]
+    = 0.1 * 200
+    = 20 = border radius of image
+    */
+    border-radius: 20px;
+}
+
+.sidebar-bio {
+    margin-left: 32px;
+    margin-right: 37px;
+    margin-bottom: 22px;
+    
+    width: 180px;
+    height: 150px;
+
+    color: #FAFEE7;
+    font-family: Lexend, Arial;
+}
+
+.bio-title {
+    margin-top: 8px;
+    margin-bottom: 0;
+
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.bio-text {
+    margin-top: 8px;
+    margin-bottom: 0;
+
+    font-size: 14px;
+}
+
+.bio-divider {
+    margin-top: 9px;
+    margin-bottom: 8px;
+    width: 60px;
+    
+    border-color: #FAFEE7;
+    border-radius: 100px;
+    opacity: 0.4;
+    border-style: solid;
+}
+
+.bio-note {
+    margin-top: 0;
+    text-align: center;
+    
+    font-size: 11px;
+}
+
+/*==================================*/
+/*---------- MAIN CONTENT ----------*/
+.main-container { /*This is an overall format for the whole main section.*/
+    margin-top: 130px; /*Distance from window top - not from header.*/
+    margin-left: 319px; /*Distance from window left - not from sidebar.*/
+    margin-right: 164px;
+}
+
+.page-content {
+    display: none; /* This HIDES the main content by default.*/
+    gap: 50px; /*Spacing between the text columns.*/
+}
+/*When the menu options in the header are selected,
+they become UNHIDDEN while the others remain HIDDEN by default.*/
+
+/*This activates the display depending on which menu option is selected:*/
+#tab-home:checked ~ .main-container #content-home,
+#tab-myba:checked ~ .main-container #content-myba,
+#tab-recs:checked ~ .main-container #content-recs {
+    display: flex;
+}
+
+/*This is the column style:*/
+.column {
+    flex: 1;
+    min-width: 280px; /*This prevents the columns from shrinking too much.*/
+    min-height: 500px;/*This prevents the columns from shrinking too much.*/
+    width: 450px;
+    height: 570px;
+}
+
+.column-title {
+    margin-top: 40px;
+    margin-bottom: 18px;
+    
+    font-family: Inter, Arial;
+    font-size: 32px;
+    font-weight: 700;
+
+    color: #052D23;
+}
+
+.column-text {
+    margin-top: 0;
+    margin-left: 2px;
+
+    font-family: Inter, Arial;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.45;
+
+    text-align: justify;
+}
+
+ul {
+    margin-left: -20px;
+
+    font-family: Inter, Arial;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.45;
+}
+
+.mylink {
+    text-decoration: none;
+    color: #72A43C;
+    font-weight: 600;
+}
+
+.mylink:hover {
+    color: #052D23;
+    transition: 0.15s;
+}
+
+.inserted-image {
+    display: block;
+    margin: auto;
+    margin-top: 24px;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.each-book-grid {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 8px;
+    margin-bottom: 20px;
+} 
+
+.book-image {
+    width: 100px;
+    border-radius: 10px;
+}
+
+.book-title {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-family: Lexend, Arial;
+    font-size: 16px;
+    font-weight: 600;
+    color: #052D23;
+}
+
+.book-author {
+    margin-top: 4px;
+    margin-bottom: 0;
+
+    font-family: Inter, Arial;
+    font-size: 13px;
+    font-weight: 400;
+    color: #052D23;
+}
+
+.book-info {
+    margin-top: 10px;
+    margin-right: 22px;
+    
+    font-family: Inter, Arial;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+/*=======================================*/
+/*---------- DARK MODE BUTTON -----------*/
+.dark-mode-checkbox {display: none}
+/*This makes the checkbox invisible. The button will be styled manually.*/
+
+/*This is the dark background - hidden by default:*/
+.dark-mode-bg {
+    z-index: -100; /*This sends the background to the back.*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: #1a1a1a;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none; 
+}
+
+/*This is the format of the button:*/
+.dark-mode-btn {
+    z-index: 1000;
+    /*This brings the button to the front. A value of 1000 makes
+    it the front-most object on the page.*/
+
+    display: flex;
+    border-radius: 50%;
+    cursor: pointer;
+
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+    width: 60px;
+    height: 60px;
+
+    background-color: #052D23;
+    color: #D9F43F;
+    
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    
+    box-shadow: 3px 4px 10px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+
+.dark-mode-btn:hover {
+    transform: scale(1.1);
+    transition: 0.35s;
+}
+/*This makes the button 10% bigger when hovering over it.*/
+
+/*=======================================*/
+/*---------- DARK MODE STYLES -----------*/
+#dark-mode-toggle:checked ~ .dark-mode-bg {
+    opacity: 1;
+}
+/*This turns the previously mentioned background visible.*/
+
+#dark-mode-toggle:checked ~ .dark-mode-btn {
+    background-color: #D9F43F;
+    color: #052D23;
+}
+/*This swaps the colours of the button.*/
+
+#dark-mode-toggle:checked ~ .header,
+#dark-mode-toggle:checked ~ .sidebar {
+    background-color: #2c4217; 
+}
+/*This makes the header and sidebar darker.*/
+
+#dark-mode-toggle:checked ~ .header .menu-btn {
+    background-color: #3f5e22;
+    color: #FAFEE7;
+}
+/*This changes the style of the INACTIVE menu buttons.*/
+
+#dark-mode-toggle:checked ~ #tab-home:checked ~ .header .menu-btn[for="tab-home"],
+#dark-mode-toggle:checked ~ #tab-myba:checked ~ .header .menu-btn[for="tab-myba"],
+#dark-mode-toggle:checked ~ #tab-recs:checked ~ .header .menu-btn[for="tab-recs"] {
+    background-color: #D9F43F;
+    color: #052D23;
+}
+/*This changes the style of the ACTIVE menu button.*/
+
+#dark-mode-toggle:checked ~ .main-container .column-text,
+#dark-mode-toggle:checked ~ .main-container ul,
+#dark-mode-toggle:checked ~ .main-container .book-info {
+    color: #e0e0e0;
+}
+/*This makes the main text colours lighter.*/
+
+#dark-mode-toggle:checked ~ .main-container .column-title,
+#dark-mode-toggle:checked ~ .main-container .book-title,
+#dark-mode-toggle:checked ~ .main-container .book-author {
+    color: #D9F43F;
+}
+/*This changes the colour of headings and titles.*/
+
+#dark-mode-toggle:checked ~ .main-container .mylink {
+    color: #D9F43F;
+}
+/*This changes the colour of the hyperlinks used in the text.*/
+/*This is kept on its own line to make it easier to adjust only the hyperlinks if needed
+(without changing the headings and titles like above).*/
+
+#dark-mode-toggle:checked ~ .main-container .mylink:hover {
+    color: #FAFEE7;
+}
+/*Similarly, this changes how the hyperlinks look when hovered over.*/
+
+/*Button text during light mode:*/
+.dark-mode-btn::after {
+    content: "DARK";
+
+    font-family: Lexend, Arial;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/*Button text during dark mode:*/
+#dark-mode-toggle:checked ~ .dark-mode-btn::after {content: "LIGHT"}
+/*The format/style defined previously continues into dark mode.*/
