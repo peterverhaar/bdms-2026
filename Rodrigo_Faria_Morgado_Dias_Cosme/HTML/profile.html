@@ -1,101 +1,249 @@
 <!DOCTYPE html>
-<html>
+    <html>
+        <head>
 
-<head>
-	
-	
-    <title>The Coolest Rodrigo</title>
+            <!--  <meta charset="UTF-8">  -->
+            <!--  <meta name="viewport" content="width=device-width, initial-scale=1.0">  -->
 
-    <style>
-        body {
-            background-color: #ff6666;
-            font-family: Lexend, sans-serif;
-            max-width: 800px;
-            margin: auto;
-            padding: 30px;
-        }
+            <title>Rodrigo Cosme</title> <!-- Page title - shown as the tab name -->
 
-        h1 {
-            color: white;
-			font-size: xxx-large;
-            text-align: left;
-        }
+            <link rel="stylesheet" href="stylesheet.css"> <!-- Fetches the CSS stylesheet to format the HTML file -->
+        
+            <!--These lines load the League Spartan font for the menu buttons:-->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-        h2 {
-            color: white;
-            padding-bottom: 5px;
-        }
-		
-		h3 {
-            color: white;
-            padding-bottom: 5px;
-        }
-		
-		h5 {
-            color: white;
-            padding-bottom: 5px;
-        }
+            <!--These lines load the Inter font for the main text:-->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
-        p {
-            font-size: 16px;
-            line-height: 1.5;
-			color: white;
-        }
-		
-		table {
-			color: white;
-			font-size: 18px;
-			vertical-align: bottom;
-        }
+            <!--These lines load the Lexend font for the title and other objects:-->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
 
-        img {
-            max-width: 300px;
-        }
+        </head>
 
-        a {
-            color: blue;
-			
-        }
-    </style>
-</head>
+        <body>
 
-<body>
+            <!-- These few lines create a dark mode toggle: -->
+            <input type="checkbox" id="dark-mode-toggle" class="dark-mode-checkbox"> 
+            <div class="dark-mode-bg"></div>
+            <label for="dark-mode-toggle" class="dark-mode-btn"></label>
+            <!-- The label is left blank, so its actual content can be switched back and forth with CSS. -->
 
-    <h1>RODRIGO COSME</h1>
+            <!-- These 3 <input> tags are the menus in the top-right side of the header.
+             They allow the user to navigate between the content, as if they were visiting different pages. -->
+            <input type="radio" id="tab-home" name="site-tabs" class="tab-toggle" checked>  <!-- Button for HOME (starts off checked - homepage) -->
+            <input type="radio" id="tab-myba" name="site-tabs" class="tab-toggle">          <!-- Button for MY BA -->
+            <input type="radio" id="tab-recs" name="site-tabs" class="tab-toggle">          <!-- Button for RECOMMENDATIONS -->
 
-	<table>
-	<tr>
-	<td><img src="me.jpg" height="256"></td> <td style="vertical-align: top;"><br/>Hello! I'm Rodrigo, I'm 23 years old.<br/>I'm from Portugal, but I grew up in Denmark,<br/>and lived in Spain during my high school studies.<br/><br/><i>(yes, that's a photo of me performatively reading)<i/></td>
-	</tr>
-	</table>
+            <!-- This is the header. Its CSS code fixes it on the page. See the stylesheet. -->
+            <header class="header"> <!-- Opening HEADER -->
 
-    <h2>BA Digital Society</h2>
+                <div class="myname"> <!-- Opening MYNAME -->
+                    <p>RODRIGO COSME</p> <!-- This is my name on the top-left side of the header (like a title). -->
+                </div> <!-- Closing MYNAME -->
+                
+                <nav class="nav-menu"> <!-- Opening NAV-MENU -->
+                    <label for="tab-home" class="menu-btn">Home</label>             <!-- Label given to the HOME button -->
+                    <label for="tab-myba" class="menu-btn">My&nbspBA</label>        <!-- Label given to the MY BA button ('&nbsp' is a non-breaking space) -->
+                    <label for="tab-recs" class="menu-btn">Recommendations</label>  <!-- Label given to the RECOMMENDATIONS button -->
+                </nav> <!-- Closing NAV-MENU -->
 
-    <p>
-        I completed my previous studies at Maastricht University in <b><a href="https://shorturl.at/ueMRO" style="text-decoration:none;" onmouseover="this.style.color='#ffffff';" onmouseout="this.style.color='blue';">BA Digital Society</a></b>. In short, it's an interdisciplinary programme in the field of sociology with a focus on how digitalisation and the rapidly advancing modern-day technologies may impact (whether positively or negatively) societal processes.
-    </p>
+            </header> <!-- Closing HEADER -->
 
-    <h2>Book Recommendations</h2>
+            <!-- This is the floating 'sidebar'. Its CSS fixes it on the page like the header. See the stylesheet. -->
+            <div class="sidebar"> <!-- Opening SIDEBAR -->
 
-    <h3>Fahrenheit 451 (1953)</h3>
-	<h5><i>by Ray Bradbury</i></h5>
-    <p>I wasn't a big fan of the ending, but the book overall is a real eye-opener for fans of dystopian books. The story takes place in a reality where books have been banned, and it follows the life of a 'fireman' tasked with burning any and all books reported to the authorities.</p>
+                <div> <!-- Opening IMAGE DIV -->
+                    <img src="me.JPG"
+                    class="sidebar-image"
+                    alt="A photo of me reading a book">
+                </div> <!-- Closing IMAGE DIV -->
 
-    <h3>Dungeon Crawler Carl (2020)</h3>
-	<h5><i>by Matt Dinniman</i></h5>
-    <p>This one is incredibly well-written and definitely one of my favourite books. I know the cover looks goofy (and I <i>definitely</i> tend to judge books by their covers myself), but I gave it a try, and it was absolutely worth it. Also, one of the main characters is a cat, so.... cool :)</p>
+                <div class="sidebar-bio"> <!-- Opening BIO DIV -->
 
-    <h2>Current Read</h2>
-	<h3>Project Hail Mary (2021)</h3>
-	<h5><i>by Andy Weir</i></h5>
-	<p>I finally caved under peer pressure and started reading this, but it's taking me unusually long. The plot is really interesting, but the writing is too technical. Still recommendable, though.</p>
+                    <!-- There are three types of paragraphs in the sidebar: title, text, note. -->
+                    <p class="bio-title"><i>Why this MA?</i></p>
+                    <p class="bio-text">
+                        I'm currently aiming for a future in trade publishing.
+                        I hope this MA can give me useful experience and
+                        help me open those doors.
+                    </p>
+                    <hr class="bio-divider"> <!-- Line separating the TEXT from the NOTE. -->
+                    <p class="bio-note"><i>(yes, that's a photo of me<br>reading performatively)</i></p>
+
+                </div> <!-- Closing BIO DIV -->
+
+            </div> <!-- Closing SIDEBAR -->
+
+            <!-- This is the main content of the page. This changes depending on the menu button pressed from the header. -->
+            <main class="main-container"> <!-- Opening MAIN -->
+                
+                <!-- Page #1: Home -->
+                <div id="content-home" class="page-content"> <!-- Opening HOME page -->
+                    
+                    <div class="column"> <!-- Opening COLUMN 1 -->
+                        <p class="column-title">About me</p>
+                        <p class="column-text">
+                            Hello! My name is Rodrigo, I'm 23, and I'm from Portugal.<br><br>
+                            In my free time, I like to read (I know, right? so original), play video games, binge a good TV show, and watch football (even though I can barely kick one). And, most importantly, I have an undying love for Ben & Jerrys :)<br><br>
+                            I used to hate reading when I was younger, and this continued well into my teenage years. It wasn't until a couple of years ago when my sister lent me Agatha Christie's <i>And Then There Were None</i> that I realised I could easily sprint through the pages; it was just a matter of finding the right book and the right genre. Since then, I've been reading mostly murder mysteries (e.g., Richard Osman, Nita Prose, Benjamin Stevenson, etc.), and lately I've explored dystopians (<i>love these!</i>), thrillers, and a bit of sci-fi.
+                        </p>
+                    </div> <!-- Closing COLUMN 1 -->
+
+                    <div class="column"> <!-- Opening COLUMN 2 -->
+                        <p class="column-title">&nbsp</p>
+                        <p class="column-text">
+                            As I said, I was born in Portugal. However, at the age of 5, my parents, my sister, and I moved to Copenhagen, Denmark ('cause the weather is <i>soooo</i> much better up there...). I grew up there and quickly picked up on the language.<br><br>
+                            At 14, we moved back down south - this time to Galicia in northwestern Spain, which is where I completed my high school studies in a British school, where I became fluent in Spanish (and obviously improved my English). That's where I live now (except for the Netherlands, of course) with a cat and a dog.<br><br>
+                            Now, I know that I just went over this, but I kind of want to prove I can make a list in HTML, so these are the languages I speak:<br>
+                        </p>
+
+                        <ul>
+                            <li>English</li>
+                            <li>Portuguese</li>
+                            <li>Spanish (and Galician)</li>
+                            <li>Danish</li>
+                            <li><i>and I like to think I speak French, but who am I kidding...</i></li>
+                        </ul>
+
+                    </div> <!-- Closing COLUMN 2 -->
+
+                </div> <!-- Closing HOME page -->
+
+                <!----- NEXT PAGE ----->
+
+                <!-- Page #2: My BA -->
+                <div id="content-myba" class="page-content"> <!-- Opening MY BA page -->
+                    
+                    <div class="column"> <!-- Opening COLUMN 1 -->
+                        <p class="column-title">BA Digital Society</p>
+                        <p class="column-text">
+                            I completed my previous education in sociology at Maastricht University in a programme called <a href="https://www.maastrichtuniversity.nl/education/bachelor/programmes/digital-society" class="mylink" target="_blank">Digital Society</a>. It's an unusual name, and all the students there have always struggled to explain it properly. It's an interdisciplinary programme focusing on the fields of politics, ethics, philosophy, technology, governance, big data, etc. - a little bit of everything. In short, it focuses on how the digitalisation of societal processes and constructs affects society as a whole (doesn't sound abstract at all, right?). It was a lot of fun and extremely interesting.<br><br>
+                            I finished my bachelor thesis in June. I studied the effects of location-tracking apps (<i>Life360</i>, <i>Find My</i>, etc.) on children's privacy and independence from their parents. Before my thesis, I was also a Communications Intern at a technology lab in the university, where my role was web design, content creation, and social media management. It's called <a href="https://theplant.maastrichtuniversity.nl/" class="mylink" target="_blank">The Plant</a>, and I learned a lot and was surrounded by the best team of people imaginable.
+                        </p>
+                    </div> <!-- Closing COLUMN 1 -->
+
+                    <div class="column"> <!-- Opening COLUMN 2 -->
+                        <p class="column-title">Maastricht</p>
+                        <p class="column-text">
+                            My time in Maastricht started a year before I joined my bachelor programme. After high school, I initially enrolled in a different programme, <a href="https://www.maastrichtuniversity.nl/education/bachelor/programmes/data-science-and-artificial-intelligence" class="mylink" target="_blank"> BSc Data Science and Artificial Intelligence</a>. However, as any data science student will tell you, it wasn't exactly enjoyable. I decided to switch gears (towards the humanities and sociology) but maintain my focus on technology, which is where my BA fit right in.<br><br>
+                            Life in Maastricht was incredible! Most people there are students, so you really feel the vibe of university life. It's a small town, so you easily learn to find your way around surprisingly fast (I never once got lost walking home drunk from the other side of the city).
+                        </p>
+
+                        <img class="inserted-image" src="maastricht.jpg" alt="A photo of Maastricht overlooking the riverside.">
+
+                    </div> <!-- Closing COLUMN 2 -->
+
+                </div> <!-- Closing MY BA page -->
+
+                <!----- NEXT PAGE ----->
+
+                <!-- Page #3: Recommendations -->
+                <div id="content-recs" class="page-content"> <!-- Opening RECS page -->
+                    
+                    <div class="column"> <!-- Opening COLUMN 1 -->
+                        <p class="column-title">Recommended books</p>
+                        
+                        <div class="each-book-grid"> <!-- Opening BOOK -->
+
+                            <div class="book-image-div"> <!-- Opening COVER -->
+                                <img class="book-image" src="bradbury.jpg" alt="Fahrenheit 451 (by Ray Bradbury)">
+                            </div> <!-- Closing COVER -->
+
+                            <div class="book-info-div"> <!-- Opening BOOK INFO -->
+                                <p class="book-title">Fahrenheit 451</p>
+                                <p class="book-author"><i>Ray Bradbury (1953)</i></p>
+                                <p class="book-info">
+                                    I wasn't a big fan of the ending, but the book overall is a real eye-opener for fans of dystopian books. The story takes place in a reality where books have been banned, and it follows the life of a 'fireman' tasked with burning books reported to the authorities.
+                                </p>
+                            </div> <!-- Closing BOOK INFO -->
+
+                        </div> <!-- Closing BOOK -->
+                        
+                        <div class="each-book-grid"> <!-- Opening BOOK -->
+
+                            <div class="book-image-div"> <!-- Opening COVER -->
+                                <img class="book-image" src="dinniman.jpg" alt="Dungeon Crawler Carl (by Matt Dinniman)">
+                            </div> <!-- Closing COVER -->
+
+                            <div class="book-info-div"> <!-- Opening BOOK INFO -->
+                                <p class="book-title">Dungeon Crawler Carl</p>
+                                <p class="book-author"><i>Matt Dinniman (2020)</i></p>
+                                <p class="book-info">
+                                    This one is incredibly well-written and definitely one of my favourite books. I know the cover looks goofy (and I definitely tend to judge books by their covers myself), but I gave it a try, and it was absolutely worth it.
+                                </p>
+                            </div> <!-- Closing BOOK INFO -->
+
+                        </div> <!-- Closing BOOK -->
+
+                        <p class="column-title">
+                            Current read
+                        </p>
+
+                        <div class="each-book-grid"> <!-- Opening BOOK -->
+
+                            <div class="book-image-div"> <!-- Opening COVER -->
+                                <img class="book-image" src="weir.jpg" alt="Project Hail Mary (by Andy Weir)">
+                            </div> <!-- Closing COVER -->
+
+                            <div class="book-info-div"> <!-- Opening BOOK INFO -->
+                                <p class="book-title">Project hail Mary</p>
+                                <p class="book-author"><i>Andy Weir (2021)</i></p>
+                                <p class="book-info">
+                                    I finally caved under peer pressure and started reading this, but it's taking me unusually long. The plot is really interesting, but the writing is too technical. Still recommendable, though.
+                                    <br><br><br><br> <!-- These line breaks add some blank space from the bottom of the window, without adding it to other paragraphs. -->
+                                </p>
+                            </div> <!-- Closing BOOK INFO -->
+
+                        </div> <!-- Closing BOOK -->
+
+                    </div> <!-- Closing COLUMN 1 -->
 
 
-    <ul>
-        <li>item</li>
-        <li>item</li>
-    </ul>
+                    <!-- Class names remain the same - tailored to books despite this being about movies. -->
+                    <div class="column"> <!-- Opening COLUMN 2 -->
+                        <p class="column-title">Recommended movies</p>
+                        
+                        <div class="each-book-grid"> <!-- Opening MOVIE -->
 
-</body>
+                            <div class="book-image-div"> <!-- Opening COVER -->
+                                <img class="book-image" src="prestige.jpg" alt="The Prestige">
+                            </div> <!-- Closing COVER -->
 
-</html>
+                            <div class="book-info-div"> <!-- Opening MOVIE INFO -->
+                                <p class="book-title">The Prestige</p>
+                                <p class="book-info">
+                                    I've watched this movie several times, and it never disappoints. I'm not sure if I could pick a favourite movie, but <i>The Prestige</i> is definitely my safe go-to recommendation. Great cast, great plot!
+                                </p>
+                            </div> <!-- Closing MOVIE INFO -->
+
+                        </div> <!-- Closing MOVIE -->
+
+                        <div class="each-book-grid"> <!-- Opening MOVIE -->
+
+                            <div class="book-image-div"> <!-- Opening COVER -->
+                                <img class="book-image" src="marvel.jpg" alt="Marvel Cinematic Universe">
+                            </div> <!-- Closing COVER -->
+
+                            <div class="book-info-div"> <!-- Opening MOVIE INFO -->
+                                <p class="book-title">MCU (Marvel)</p>
+                                <p class="book-info">
+                                    This is a whole franchise, not a single movie. Not much to say about this that people don't already know. It's an incredible franchise - for its lore, its characters, and its cast. The films have been falling off lately, but I'm a firm believer in the MCU rebirth!
+                                </p>
+                            </div> <!-- Closing MOVIE INFO -->
+
+                        </div> <!-- Closing MOVIE -->
+
+                    </div> <!-- Closing COLUMN 2 -->
+
+                </div> <!-- Closing RECS page -->
+
+            </main> <!-- Closing MAIN -->
+
+        </body>
+    </html>
