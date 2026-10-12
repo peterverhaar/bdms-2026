@@ -1,0 +1,41 @@
+<opener>
+<listPerson>
+	<person xml:id="Chobson">
+		<persName>
+			<forename>Coralie</forename>
+			<surname>Hobson</surname>
+		</persName>
+	</person>
+
+	<person xml:id="anonymous_sir">
+		<persName>
+			<forename>Anoynmous</forename>
+			<surname>Sir</surname>
+		</persName>
+	</person>
+</listPerson>
+
+<address>
+							<street>56 Cartwright Gardens</street>
+							<settlement type="city">London</settlement>
+							<postCode>W.C.1</postCode>
+</address>
+							<date when="1924-03-04">March 4th 1924</date>
+<salute>Dear Sir</salute>
+</opener>
+
+<body>
+
+	<p><rs type="person" ref="#Chobson">I</rs> thank <rs type="person" ref="#anonymous_sir">you</rs> for <rs type="person" ref="#anonymous_sir">your</rs> letter of the <date when="1924-03-01">1st inst</date>. and would confirm that <rs type="person" ref="#Chobson">I</rs> would like <rs type="person" ref="#anonymous_sir">you</rs> to publish <rs type="work" xml:id="smoke_rings">the book</rs> for <rs type="person" ref="#Chobson">me</rs> on the terms which <rs type="person" ref="#anonymous_sir">you</rs> suggest: 
+	<rs type="person" ref="#Chobson">I</rs> take it therefore that <rs type="person" ref="#anonymous_sir">you</rs> will now prepare a formal contract which <rs type="person" ref="#Chobson">I</rs> shall be glad to receive at <rs type="person" ref="#anonymous_sir">your</rs> convenience. 
+	<rs type="person" ref="#Chobson">I</rs> also thank <rs type="person" ref="#anonymous_sir">you</rs> for <rs type="person" ref="#anonymous_sir">your</rs> specimen page which appears to <rs type="person" ref="#Chobson">me</rs> to be quite satisfying, and which <rs type="person" ref="#Chobson">I</rs> now return.</p>
+	<p><rs type="person" ref="#Chobson">I</rs> suggest as a title for the book "<title level="m" ref="#smoke_rings">Smoke Rings</title>".</p>
+
+</body>
+
+<closing>
+		<salute>Yours faithfully</salute>
+	<signed>
+		<persName ref="#Chobson">Coralie Hobson</persName>
+	</signed>	
+</closing>

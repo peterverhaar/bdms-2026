@@ -1,0 +1,30 @@
+<opener>	
+							<date when="1944-02-06">February 6th 1944</date>
+<address>
+	<orgName type="publisher">The Hogarth Press</orgName>
+	<street>Pixmore Avenue.</street>
+	<settlement type="town">Letchworth.</settlement>
+	<region type="county">Herts.</region>
+</address>
+
+<salute>Dear Sirs,</salute>
+</opener>
+
+<body>
+
+
+		<p>We have your letter of the <date when="1944-02-02">2nd inst</date> re <persName ref="#ahmed_ali">Ahmed Ali</persName>'s <title level="m" xml:id="twilight_delhi">TWILIGHT IN DELHI</title>, with royalty statement for year ending <date when="1943-03-31">March 31. 1943</date>. Could you kindly let us have a copy of the account to <date when="1942-03-31">March 31. 1942</date> (which may have gone direct to <rs type="person" ref="#ahmed_ali">the author</rs>, as in the present case) together with the stock on hand at <date when="1943-03">March 1943</date> so that we can complete our records of <rs type="work" ref="#twilight_delhi">the book</rs>. Will you also make a special note to send the <date when="1943-03">March 1944</date> royalty account to us, and if there are any further royalties due we can adjust the <rs type="person" ref="#ahmed_ali">author</rs>'s indebtedness to us when remitting to <rs type="person" ref="#ahmed_ali">him</rs>. This should put the matter right. If anything different should be advisable we will let you know.</p> 
+		<p>All future accountings should also come to us.</p>
+</body>
+
+<closing>
+				<salute>Yours faithfully,</salute>
+			<signed>
+				
+					<persName ref="#HB">
+					<roleName>Accountant.</roleName>
+<name>HB.</name>
+					</persName>
+			</signed>
+</closing>
+
