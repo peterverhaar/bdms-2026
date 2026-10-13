@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <element name="attributes">
+      <element name="p">
+        <oneOrMore>
+          <choice>
+            <text/>
+            <element name="title">
+              <attribute name="type">
+                <choice>
+                <value type="string">poem</value>
+                <value type="string">play</value>
+                <value type="string">painting</value>
+                <value type="string">novel</value>
+                <value type="string">ballet</value>
+                </choice>
+              </attribute>
+              <text/>
+            </element>
+          </choice>
+        </oneOrMore>
+      </element>
+    </element>
+  </start>
+</grammar>
