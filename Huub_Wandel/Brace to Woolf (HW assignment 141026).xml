@@ -1,0 +1,83 @@
+<TEI>
+	<TEIHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Donald C. Brace to Leonard Woolf</title>
+				<author>Donald C. Brace</author>
+			</titleStmt>
+			<sourceDesc>
+			<p>Digital image showing a typescript letter addressed to Leonard Woolf, authored and signed by Donald C. Brace. The letter has visible creases and damage along the edges.</p>
+			<sourceDesc>
+		</fileDesc>
+	</TEIHeader>
+	<text>
+		<body>
+			<div type="letterhead" rend="typewritten">
+				<ab rend="center">
+					<publisherName>HARCOURT, BRACE AND COMPANY, INC.</publisherName></br>
+					Publishers</lb>
+					<address>383 Madison Avenue, New York</address>
+				</ab>
+				<ab rend="left">
+					<telephone>Telephone:Eldorado 5-7920</telephone></br>
+					<Cableaddres>Cable address: Harbrace, New York</Cableaddres>
+				</ab>
+				<ab rend="center">
+					<figure type="logo">
+						<figDesc>Small rectangular logo inscribed with the lowercase initials "h" and "b"</figDesc>
+					</figure>
+				<ab rend="right">
+			</div>
+			<div type="letter" rend="typewritten>
+				<opener>
+					<dateline rend="right"><date when="1933-02-23">February 23, 1933</date></dateline>
+					<address>
+						<addrLine><persname>Leonard Woolf</persname>, Esq.</addrLine>
+						<addrLine>52 Tavistock Square</addrLine>
+						<addrLine>London, W.C.L</addrLine>
+					</address>
+					<salute>Dear Mr. Woolf</salute>
+				</opener>
+				<p>	The manuscript of Mrs. Noolf's new book,<title xml:id="flush" level:"m"><hi rend="Handwritten-underline"> FLUSH</title></hi>
+					<note type="annotation" place="above" target="#flush" rend="handwritten underlined">
+					  <gap reason="illegible">
+						<desc>Short handwritten mark above FLUSH, illegible.</desc>
+					  </gap>
+					</note>, as announced</br>
+					in your letter of February seventh, has arrived, and I have just finished</br>
+					reading it. It is wholly delightful and has, we think, the promise of being</br>
+					very popular. People are more than usually aware of Mrs. Browning since the</br>
+					enormous success of the play, <title>"The Barretts of Wimpole Street,"</title> and every</br>
+					one who saw the play will remember the spaniel who appeared as "Flush." It</br>
+					was a happy idea to write Flush's biography. Of course, I shall be glad to</br>
+					try to arrange for serialization. I have already communicated with <publisherName> Pictorial</br>
+					Review</publisherName>, and I am sending the manuscript to them today. This seems entirely</br>
+					suitable for serialization, and although the magazines are buying sparingly</br>
+					because of the heavy falling off in their advertising, there should be an ex-</br>
+					cellent chance of placing this.</br></p>
+				<p>	We are preparing agreements for the book, and I will send them</br>
+					separately as soon as they are ready.</p></br>
+				<p>	I hope we can arrange to publish the book nearly simaltaneously</br>.
+					It will take a certain amount of time to find out about serialization unless,</br>
+					happily, the first magazine it is offered to buys it at once. Then there will</br>
+					be the time required for serialization, and that will depend upon how soon the</br>
+					schedule of the magazine will permit them to begin it and how many install-</br>
+					ments they make of it. I will keep you informed, of course, but certainly</br>
+					serialization would make publication as early as June out of the question.</p></br>
+				<p>	I assume that you will so ahead to set up the book, and that</br>
+					you will send finally corrected proofs whenever they are ready. I should like</br>
+					to see the illustrations you decide to use, and if Mrs. Bell is to make a</br>
+					wrapper for you, I should like to see that also. It might be well, at least</br>
+					for the American edition, if the book could have just the right sort of illus-</br>
+					trations. Undoubtedly, that would mean drawings. If a magazine takes it, they</br>
+					will illustrate it, and perhaps something good would come from that source</br>
+					which could also be used in the book.</p></br>
+				<closer rend:"right">
+					<salute>Yours sincerely,</salute>
+					<seg type="signature" rend="handwritten"><persname>Donald C. brace</persname></seg>
+					<seg type="TypistInitials" rend="left">DCB:CMc</seg>
+				</closer>
+			</div>
+		</body>
+	</text>
+</TEI>
