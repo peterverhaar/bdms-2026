@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="literatureList.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<literatureList>
+    <item>
+        <language code="fre">French</language>
+        <author>Febvre, Lucien</author>
+        <title>L’apparition du livre</title>
+        <imprint>
+            <place>Paris</place>
+            <publisher>Éditions Albin Michel</publisher>
+            <date>1971</date>
+        </imprint>
+        <physicalDescription>
+            <extent>538 p.</extent>
+            <dimensions>18 cm.</dimensions>
+        </physicalDescription>
+    </item>
+    <item>
+        <language code="eng">English</language>
+            <author>Darnton, Robert</author>
+        <title>The kiss of Lamourette : reflections in cultural history</title>
+        <edition> [New ed.]</edition>
+        <imprint>
+            <place>New York</place>
+            <publisher>Norton, 1990</publisher>
+        </imprint>
+        <physicalDescription>
+            <extent>XXI, 393 p.</extent>
+            <dimensions>22 cm.</dimensions>
+        </physicalDescription>
+    </item>
+    <item>
+        <language code="eng">English</language>
+        <author>Thompson, John B.</author>
+        <title>Books in the digital age : the transformation of academic and higher education
+            publishing in Britain and the United States</title>
+        <imprint>
+            <publisher>Polity</publisher>
+            <place>Cambridge</place>
+            <date>2005</date>
+        </imprint>
+        <physicalDescription>
+            <extent>XI, 468 p.</extent>
+            <dimensions>25 cm.</dimensions>
+        </physicalDescription>
+    </item>
+</literatureList>
