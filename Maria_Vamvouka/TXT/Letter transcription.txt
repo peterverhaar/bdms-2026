@@ -2,23 +2,32 @@ Letter from Leonard Woolf to John Lehmann (29/11/1940)
 Author: Leonard Woolf
 Recipient: John Lehmann
 
-Monkís House 	Rodmell 	29/11/40
-Dear John, I do not wish, as I said, to get into a wrangle with you about this, but
+Monk‚Äôs House 	Rodmell 	29/11/40
+<salute>
+Dear John,
+</salute>
+</opener>
+<p>I do not wish, as I said, to get into a wrangle with you about this, but
 I must at least point out this:
-(1)	I showed your letter of 31 October to Virginia before I replied to you and
-she also thought it rude, angry, and offensive and that it ìwas intended in the
-senseî in which I read it. As regards my ìadviceî, which was so unhelpful, you did
+</p>
+<p>(1)	I showed your letter of 31 October to Virginia before I replied to you and
+she also thought it rude, angry, and offensive and that it ‚Äúwas intended in the
+sense‚Äù in which I read it. As regards my ‚Äúadvice‚Äù, which was so unhelpful, you did
 in fact do exactly what I advised. I do not understand therefore what more I could
 have done.
-(2)	I had letters from you on October 15, 18, 23, 31 and on Nov. 1 and 5ósix com-
-munications in 21 days; from November 5 to November 27ó22 daysóyou never wrote to
+</p>
+<p>
+(2)	I had letters from you on October 15, 18, 23, 31 and on Nov. 1 and 5‚Äîsix com-
+munications in 21 days; from November 5 to November 27‚Äî22 days‚Äîyou never wrote to
 me one single line, though I twice wrote to you asking direct questions about the
 Press. That was not the result of bad communications in the postal sense. From
 Nov 6 to Nov 20 I was not even told the sales. During this period of silence Roger
 Fry was apparently reprinted without any communication either to me or to V. who
 had an important correction to make. We only learnt of the reprint by an ad.
-If that is not being ìcut offî, I do not know what would be.
-(3)	I am in no ìblissful illusionî about the difficulty of carrying on the Press
+If that is not being ‚Äúcut off‚Äù, I do not know what would be.
+</p>
+<p>
+(3)	I am in no ‚Äúblissful illusion‚Äù about the difficulty of carrying on the Press
 since September and as a matter of fact I expressed my appreciation of it and of 
 what you had done since then when we last met and I agreed that there was no reason
 why you should go every week to Letchworth. At the same interview we agreed that 
@@ -29,13 +38,28 @@ the appearance of the books which were ready and I told you that I liked them. A
 for Vita, Day Lewis and William, I have never even been shown a copy of any
 of them, though I understand from the advertisements that they have already
 been published.
-	Your remark about making the Press a going concern, to which I took and take
+</p>
+<p>
+Your remark about making the Press a going concern, to which I took and take
 exception, could not possibly refer to the period since September of this year.
+</p>
+<p>
 (4)	I was compelled suddenly to alter my day from Friday to Wednesday this week
 partly because I had to see my sister who is returning to Gambia and partly to
 make arrangements for removal of furniture from M.S. I am afraid that I shall
 not be able to come up at all next week as I am summoned to sit as a juror at
 the Assizes in Lewes and have been refused exemption.
+</p>
+<closer>
+<signed/>
+<seg>
+LW
+</seg>
+</closer>
+</div>
+</body>
+</text>
+</TEI>
 
 
 
@@ -48,11 +72,11 @@ CHRISTIANNA BRAND
 
       All through the year there flows across the silver doorstep
 of Christophe et Cie a steady stream of shoes. Black, brown
-and grey ; suËde and canvas and kid ; the chic of Paris, the cut
-of America, the solid worth of good English leatherótap,
+and grey ; su√®de and canvas and kid ; the chic of Paris, the cut
+of America, the solid worth of good English leather‚Äîtap,
 tap, tap across the parquet. . .
       The satin slippers of the mannequins twist and turn ;
-Rachelís elegant court and Ireneís neat square toes fly over
+Rachel‚Äôs elegant court and Irene‚Äôs neat square toes fly over
 the deep carpet ; there is a scutter of high blue heels, a
 laughing aside, a disapproving glance from Mr. Bevan. His
 sober Oxfords are planted firmly on the top step of the stair-
@@ -65,12 +89,12 @@ inoffensive secretary shares with the charwoman their ready
 suspicion.
       Two pairs of satin slippers, two of shabby black, elegant
 court shoes, a pair of high blue heels, a pair of lace-ups, one
-of sandals, a gentís black Oxfords and a gentís natty suËdesó
+of sandals, a gent‚Äôs black Oxfords and a gent‚Äôs natty su√®des‚Äî
 before the day is out one of these will kick and struggle in the
 agony of death. Before the year is out another pair will dangle,
 quietly at the end of a noose. But all through the year the
 multi-coloured stream of shoes will continue to pass through
-the silver portals in ever-increasing flowótap, tap, tap
+the silver portals in ever-increasing flow‚Äîtap, tap, tap
 across the parquet. . . .
       Miss Brand is a new thriller writer and Death in High Heels
 is an unusually excellent start to a promising career.
@@ -83,23 +107,23 @@ ADVANCE
 ANNOUNCEMENT
 JOHN LANE THE BODLEY HEAD
 
-A Bakerís Dozen
+A Baker‚Äôs Dozen
 LLEWELYN POWYS
 
-      The late Llewelyn Powysí work needs no introduction to
+      The late Llewelyn Powys‚Äô work needs no introduction to
 discriminating readers who follow the trend of modern
 writing, and this volume of miscellaneous essays can only
 heighten the reputation of one whose writing is acknowledged
 to be closely related to the work of such masters as Gibbon,
 Pater, Montaigne, Sir Thomas Browne and Charles Lamb.
-      A Bakerís Dozen is a representative cross-section of Llewelyn
-Powysí work. His fresh and original philosophy, so evident in
+      A Baker‚Äôs Dozen is a representative cross-section of Llewelyn
+Powys‚Äô work. His fresh and original philosophy, so evident in
 Love and Death (his last published book) and in the exquisite
 essay Glory of Life will be found again in these pages.
 Many of the essays in this volume have already appeared in
 English periodicals and the publishers now have pleasure in
 presenting them for the first time in book form. This is the
-first book of Llewelyn Powysí to be published since his death
+first book of Llewelyn Powys‚Äô to be published since his death
 early this year
 Large Crown 8vo.	65.
 With a frontispiece portrait of the author.
