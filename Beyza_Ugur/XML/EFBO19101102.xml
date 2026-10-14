@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EFBO19101102">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Lord Lytton to Messrs de Erven F. Bohn, 05 February 1873: A
+                    machine-readable transcription</title>
+                <title type="GMD">[electronic resource]</title>
+                <author>Lytton</author>
+              
+                <principal>Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>Wendy Kamerbeek</name>
+                </respStmt>
+
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>Wendy Kamerbeek</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>Wendy Kamerbeek</name>
+                </respStmt>
+
+            </titleStmt>
+
+            <extent>c. 7 kilobytes</extent>
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>LYTT20031020</idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date when="2003">2003</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <idno>Call Number</idno>
+                    <title>Letter from <persName type="sender">Lord Lytton</persName> to <orgName
+                            type="recipient">Messrs de Erven F. Bohn</orgName>, 05 February
+                        1873</title>
+                </bibl>
+
+
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2003-2004 Electronic text and Publishing course,
+                    Werkgroep Boekwetenschap, Leiden University </p>
+            </projectDesc>
+            <editorialDecl>
+                <p> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence.</term>
+                </keywords>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl">
+                    <term>Nonfiction.</term>
+                    <term>Prose.</term>
+                    <term>Masculine.</term>
+                    <term/>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2004-08">August 2004: <name>Adriaan van der Weel</name>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="summary">
+                <p>Lord Lytton asks de Erven F. Bohn for a new - increased - offer for an early copy
+                    of <title>Kenelm Chellengly</title>.</p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <date when="1873-02-05">5 <choice>
+                                <abbr>Feb.ry</abbr>
+                                <expan>February</expan>
+                            </choice> 1873</date>
+                    </dateline>
+                    <address>
+                        <addrLine>Knebworth Park</addrLine>
+                        <addrLine>Stevenage Herts</addrLine>
+                    </address>
+                    <salute>Gentlemen,</salute>
+                </opener>
+                <p><note type="translation">
+                        <p>Ik reageer op uw brief van de negenentwintigste jongstleden, waarin u 30
+                            &#xA3; biedt voor een vroege kopie van wijlen mijn vader's aanstaande
+                            roman <title>Kenelm Chellengly</title>. Ik moet u helaas melden dat ik
+                            tegelijkertijd eenzelfde aanbod heb ontvangen van een andere Nederlandse
+                            firma; 30 &#xA3; voor een vroege kopie van dat werk, met een uitzicht op
+                            een Nederlandse vertaling ervan. Ik ben bereid een overeenkomst te
+                            sluiten met de firma die me het hoogste aanbod doet; en aangezien u
+                            beiden eenzelfde aanbod hebben gedaan, vraag ik u mij bij ommegaande
+                            post te informeren of u willens bent uw aanbod te verhogen; en zo ja,
+                            tot welk bedrag. Ik wil toevoegen dat naar mijn mening en naar die van
+                            alle buitenlandse firma's met wie ik afspraken heb gemaakt over vroege
+                            drukken, de postume interesse in dit boek de commerci&#xEB;le waarde
+                            flink doet toenemen.</p>
+                        <p>Ik ben op dit moment de laatste proeven van <title>Kenelm
+                                Chellengly</title> aan het corrigeren, aangezien dit boek spoedig
+                            gepubliceerd zal worden. Als u een vroege kopie wilt bemachtigen, ga ik
+                            ervan uit dat u me spoedig zult antwoorden.</p></note> I reply to your
+                    letter of the <date when="1873-01-29"><num type="ordinal" value="29"> 29th</num>
+                        Ulto</date>, offering 30 &#xA3; for an early copy of my late father's
+                    forthcoming novel <title>Kenelm Chellengly</title>. I beg to inform you that I
+                    have simultaneously received from another Dutch Firm, precisely the same offer, <choice>
+                        <abbr>viz.</abbr>
+                        <expan>videlicit.</expan>
+                    </choice> 30 &#xA3; for an early copy of that work, with a view to a Dutch
+                    translation of it. I am prepared to come to an agreement with the Firm which
+                    makes me the highest offer; and, as both your offers are at present precisely
+                    the same, I request you to inform me by return of post whether you are disposed
+                    to <choice>
+                        <orig>encrease</orig>
+                        <reg>increase</reg>
+                    </choice> your offer; and, if so, to what amount. I may add that in my own
+                    opinion, and also in that of all the foreign Firms with which I have concluded
+                    arrangements for early sheets, the <choice>
+                        <sic>posthumus</sic>
+                        <corr>posthumous</corr>
+                    </choice> interest of this book greatly enhances the commercial value of it.</p>
+                <p>I am now correcting the last proofs of <title>Kenelm Chellengly</title>; and as
+                    the book will be published shortly, if you desire to secure an early copy, I
+                    trust you will favour me with an early reply.</p>
+                <p>I have the honour to remain,<note>On the reverse of this letter in erased pencil
+                        (and therefore barely legible) there are instructions in Dutch:
+                        Telegrapheer... &#xA3; 50: Dit is mij de...waard...gij ter...,</note></p>
+                <closer>
+                    <salute>Gentlemen</salute>
+                    <salute>Your <choice>
+                            <abbr>obedt.</abbr>
+                            <expan>obedient</expan>
+                        </choice>
+                        <choice>
+                            <abbr>Servt</abbr>
+                            <expan>servant</expan>
+                        </choice></salute>
+                    <signed>
+                        <name>
+                            <choice>
+                                <orig>Lytton</orig>
+                                <reg>Lord Lytton</reg>
+                            </choice>
+                        </name>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
