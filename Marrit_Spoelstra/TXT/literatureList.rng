@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <element name="literatureList">
+      <oneOrMore>
+        <element name="item">
+          <element name="language">
+            <attribute name="code">
+              <data type="NCName"/>
+            </attribute>
+            <data type="NCName"/>
+          </element>
+          <element name="author">
+            <text/>
+          </element>
+          <element name="title">
+            <text/>
+          </element>
+          <optional>
+            <element name="edition">
+              <text/>
+            </element>
+          </optional>
+          <element name="imprint">
+            <interleave>
+              <optional>
+                  <element name="place">
+                    <text/>
+                  </element>
+              </optional>
+           
+              <optional>
+                <element name="publisher">
+                  <text/>
+                </element>
+              </optional>
+            <optional>
+              <element name="date">
+                <data type="integer"/>
+              </element>
+            </optional>
+            </interleave>
+          </element>
+          <element name="physicalDescription">
+            <interleave>
+              <optional>
+            <element name="extent">
+              <text/>
+            </element>
+              </optional>
+              <optional>
+            <element name="dimensions">
+              <text/>
+            </element>
+              </optional>
+          </interleave>
+          </element>
+        </element>
+      </oneOrMore>
+    </element>
+  </start>
+</grammar>
