@@ -9,7 +9,7 @@ Stone House,
 (right)
 18th April, 1932.
 
-(paragraph)
+(body centered)
 Dear Miss Belsher,
 (tab*2)Would you be so kind as to let me know
 the dates on which the amounts making up
@@ -20,7 +20,7 @@ Mrs. Nicolson is away from Long Barn I have
 no means of finding out, except through you,
 and I must know for Income Tax returns. (tab) I am
 so sorry to worry you.
-(left)
+(right)
 Yours sincerely,
 (signature) Audrey Helfile.
 Secretary.
@@ -28,6 +28,57 @@ Secretary.
 
 2
 Letter from Donald Brace to Leonard Woolf (19 April 1933)
+(center)
+HARCOURT, BRACE AND COMPANY, (smaller)INC.
+PUBLISHERS
+383 MADISON AVENU, NEW YORK
+(logo)
+(left)
+Telephone: ELdorado S-7920
+Cable Address Harbrace, New York
+
+(handwritten, diagonally, left)
+Does Mrs Woolf
+want an additional
+set to correct
+(signature)
+
+(right)
+April 19, 1933.
+(left)
+Leonard Woolf, Esq.
+52 Tavistock Square
+London, W.C.l
+
+(body centered)
+Dear Mr. Woolf:
+(tab*4?) I recieved yesterday your cable reading:
+"Accept Atlantic Hogarth." Upon recieveng it, I telephoned 
+to Boston and talked with Mr. Sedgwick and succeded in
+persuading him to push the price up to (dollar)1500. The sale of
+the serial rights is therefore concluded at that figure.
+I am sure you won't mind the additional sum, and the price 
+of (dollar)1500 seems more appropriate than the (dollar)1200 he offered.
+
+(tab*4?) I assume that you have gone ahead to set up
+the book by this time, and I am hoping that we may receive 
+corrected proofs before long. It would be well to send us
+two sets, one of which I might send on to the Atlantic.
+No doubt, it will be better for them to print from the 
+corrected version if possible. Also, although book pub-
+lication is put off until October, we shall still want as 
+complete samples as possible early in June. I should be
+glad, therefore, if we might have the photographs you 
+select as soon as possible, as well as the corrected proofs:
+or if the corrected proofs are to be long in coming, at 
+least the photographs.
+(right)
+With kind regards to you both,
+Yours sincerely,
+(signature)Donald Brace
+(left)DCB:CMc
+
+Additionally right leaning line over the document in pencil like a tick
 
 
 
