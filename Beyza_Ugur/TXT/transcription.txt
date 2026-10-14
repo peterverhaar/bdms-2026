@@ -5,7 +5,7 @@ D
 (right)
 Stone House,
 (tab*2)Victoria Road,
-(tab*4)Sevenosks.
+(tab*4)Sevenoaks.
 (right)
 18th April, 1932.
 
