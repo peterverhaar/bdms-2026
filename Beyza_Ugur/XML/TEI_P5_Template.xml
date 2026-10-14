@@ -5,28 +5,28 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->: A
+                <title>Letter from Audrey Heffill to Peggy Belsher, 18/04/1932: A
                     machine-readable transcription</title>
                 <author>
-                    <!-- sender -->
+                    Audrey Heffill
                 </author>
                 <principal>Prof. dr. Adriaan van der Weel</principal>
                 <respStmt>
                     <resp>Creation of machine-readable version: </resp>
                     <name>
-                        <!-- your name -->
+                        Beyza Nur Ugur
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>Conversion to TEI-conformant markup: </resp>
                     <name>
-                        <!-- your name -->
+                        Beyza Nur Ugur
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>Editorial annotations: </resp>
                     <name>
-                        <!-- your name -->
+                        Beyza Nur Ugur
                     </name>
                 </respStmt>
             </titleStmt>
@@ -48,27 +48,27 @@
                 <availability>
                     <p>Publicly accessible </p>
                 </availability>
-                <date><!-- current year --></date>
+                <date>2026</date>
             </publicationStmt>
 
 
             <sourceDesc>
                 <bibl>
-                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    <title>Letter from Audrey Heffill to Peggy Belsher, 18/04/1932
                     </title>
                     <author>
-                        <!-- sender -->
+                        Audrey Heffill
                     </author>
                     <idno type="callNo">
-                        <!-- library callnumber -->
+                        <!-- library callnumber maybe MS 2750/410/47 -->
                     </idno>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <projectDesc>
-                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
-                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                <p>Prepared by students of the 2026-2027 
+                    The Book in the Digital Age: Agents and Medium course, Book and Digital Media Studies, Leiden
                     University</p>
             </projectDesc>
             <editorialDecl>
@@ -77,7 +77,7 @@
         </encodingDesc>
         <profileDesc>
             <langUsage>
-                <language ident="dut">Dutch</language>
+               TODO <language ident="dut">Dutch</language>
             </langUsage>
             <textClass>
                 <keywords scheme="http://classificationweb.net">
@@ -108,10 +108,12 @@
                 <opener>
                     <dateline>
                         <placeName>
-                            <!-- place name as in letter -->
+                            Stone House,</lb>
+                            <--!(tab)--> Victoria Road,</lb>
+                            <--!(tab*2)-->Sevenoaks.
                         </placeName>
                         <date when="YYYY-MM-DD">
-                            <!-- date_as_found_in_letter -->
+                            18th April, 1932.
                         </date>
                     </dateline>
                     <address>
