@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CKCU_19280401">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from C.K. Cumming to Leonard Woolf, April 1, 1928: A
+                    machine-readable transcription</title>
+                <author>
+                   C. K. Cumming
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Flame Rikkers
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Flame Rikkers
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Flame Rikkers
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                1.63 kB
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    CKCU_19280401
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2026</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <persName>C. K. Cumming</persName> to <persName key="Q703935">Leonard Woolf</persName>, <date when="1928-04-01">April 1, 1928</date>
+                    </title>
+                    <author>
+                       C. K. Cumming
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2026-2027
+                    The Book in the Digital Age: Agents and Medium course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                   C. K. Cumming informs Leonard Woolf that she had declined Woolf's job offer as the Hogarth Press manager in hopes of a better position being offered from other firms, and now regrets the decision. She asks Woolf that, since he has connections in the publishing industry, if he could inform her of opportunities in any firms expanding their business, as her application would have a higher rate of success. Typescript letter signed by C. K. Cumming.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            London
+                        </placeName>
+                        <date when="1928-04-01">
+                            April 1, 1928
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <persName>Leonard Woolf</persName>
+                        </addrLine>
+                        <addrLine>
+                            38 Torrington Square, 
+                           <lb/>London W.C. 1,
+						   <lb/><date>April 1, 1928.</date>							
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear <persName key="Q703935">Mr. Woolf,</persName>
+                    </salute>
+                </opener>
+                <p>
+                    You may think it rather extraordinary
+                    that I should ask you for any help <note><p>See correspondences 1928-01-20 and 1928-01-24. . The first letter was from Leonard Woolf, inviting C.K. Cumming to come work for him as Press Manager but in the second letter she declined.</p></note>, but things have 
+                    come out very unhappily for me. 
+                    
+                    I think that the thing that really
+                    weighed most with me in January <note><p>See letters from 1928-01-20 and 1928-01-24></p></note> and caused all my vacil-
+                    lation and consequent wrong decision was the fact that
+                    I had previously had some dealing with another firm. 
+                    I might want to accept it, and that I ought not to 
+                    accept your post with that possibility in my mind. I
+                    can't think now why I ever thought I might prefer it
+                    and I have regretted a hundred times both my indecision
+                    and my over-scrupulousness. 
+                    
+                    Anyhow, after keeping me in suspense for
+                    weeks (it is months since the first conversation), they
+                    have finally decided to promote someone inside the firm
+                    instead (just what I might have expected) and the whole
+                    thing falls to the ground, a great disappointment. 
+                    
+                    This means that I have to begin again to 
+                    canvass all the firms in London, which is very disheart-
+                    ening. It is so difficult to know the right moment. 
+                    
+                    What I thought I would ask you is this. 
+                    As you are inside the publishing world, you might pos-
+                    sibly hear in advance that some firm was contemplating
+                    changes or expansion. An application under those cir-
+                    cumstances would stand a much better change of receiving
+                    attention. If you ever did hear of such a thing and
+                    would let me know, I should be immensly grateful, and
+                    would not use your name at all, if you did not wish it. 
+                    I hope you will not think that I am taking too great a
+                    liberty in asking you. 
+                </p>
+                <closer>
+                    <salute>
+                        Yours sincerely
+                    </salute>
+                    <signed/> <persName>C. K. Cumming<note><p>This is not text but a signature in pen</p></note></persName>
+                    <seg>
+                        <!-- post scriptum -->
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
