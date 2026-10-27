@@ -1,23 +1,144 @@
-Letter from Leonard Woolf to John Lehmann (29/11/1940)
-Author: Leonard Woolf
-Recipient: John Lehmann
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Leonard Woolf to John Lehmann, 29/11/1940: A
+                    machine-readable transcription</title>
+                <author>
+                    Leonard Woolf
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Maria Vamvouka
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Maria Vamvouka
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Maria Vamvouka
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
 
-Monk’s House 	Rodmell 	29/11/40
-<salute>
-Dear John,
-</salute>
-</opener>
-<p>I do not wish, as I said, to get into a wrangle with you about this, but
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2026</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from Leonard Woolf to John Lehmann, (29/11/1940)
+                    </title>
+                    <author>
+                        Leonard Woolf
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    <!-- summary of contents -->
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            <!-- place name as in letter -->
+                        </placeName>
+                        <date when="1940-11-29">
+                            29/11/40
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <!-- recipient's name, using <persName> or <orgName> element -->
+                        </addrLine>
+                        <addrLine>
+                            <!-- recipient's address (add <addrLine>s as required) -->
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear John,
+                    </salute>
+                </opener>
+				<p>
+				I do not wish, as I said, to get into a wrangle with you about this, but
 I must at least point out this:
-</p>
-<p>(1)	I showed your letter of 31 October to Virginia before I replied to you and
+				</p>
+				<p>
+				(1)	I showed your letter of 31 October to Virginia before I replied to you and
 she also thought it rude, angry, and offensive and that it “was intended in the
 sense” in which I read it. As regards my “advice”, which was so unhelpful, you did
 in fact do exactly what I advised. I do not understand therefore what more I could
 have done.
-</p>
-<p>
-(2)	I had letters from you on October 15, 18, 23, 31 and on Nov. 1 and 5—six com-
+				</p>
+				<p>
+				(2)	I had letters from you on October 15, 18, 23, 31 and on Nov. 1 and 5—six com-
 munications in 21 days; from November 5 to November 27—22 days—you never wrote to
 me one single line, though I twice wrote to you asking direct questions about the
 Press. That was not the result of bad communications in the postal sense. From
@@ -25,9 +146,9 @@ Nov 6 to Nov 20 I was not even told the sales. During this period of silence Rog
 Fry was apparently reprinted without any communication either to me or to V. who
 had an important correction to make. We only learnt of the reprint by an ad.
 If that is not being “cut off”, I do not know what would be.
-</p>
-<p>
-(3)	I am in no “blissful illusion” about the difficulty of carrying on the Press
+				</p>
+				<p>
+				(3)	I am in no “blissful illusion” about the difficulty of carrying on the Press
 since September and as a matter of fact I expressed my appreciation of it and of 
 what you had done since then when we last met and I agreed that there was no reason
 why you should go every week to Letchworth. At the same interview we agreed that 
@@ -35,101 +156,29 @@ under the circumstances advertising must be left entirely in your hands, and tha
 was why I have been careful not to interfere with suggestions which would almost
 certainly come to you too late. On two occasions when we met in town we discussed
 the appearance of the books which were ready and I told you that I liked them. As
+				<pb>
 for Vita, Day Lewis and William, I have never even been shown a copy of any
 of them, though I understand from the advertisements that they have already
-been published.
-</p>
-<p>
-Your remark about making the Press a going concern, to which I took and take
+been published. </pb>
+				</p>
+				<p>
+				Your remark about making the Press a going concern, to which I took and take
 exception, could not possibly refer to the period since September of this year.
-</p>
-<p>
-(4)	I was compelled suddenly to alter my day from Friday to Wednesday this week
+				</p>
+                <p>
+                    (4)	I was compelled suddenly to alter my day from Friday to Wednesday this week
 partly because I had to see my sister who is returning to Gambia and partly to
 make arrangements for removal of furniture from M.S. I am afraid that I shall
 not be able to come up at all next week as I am summoned to sit as a juror at
 the Assizes in Lewes and have been refused exemption.
-</p>
-<closer>
-<signed/>
-<seg>
-LW
-</seg>
-</closer>
-</div>
-</body>
-</text>
+                </p>
+                <closer>
+                    <signed/>
+                    <seg>
+                        LW
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
 </TEI>
-
-
-
-ADVANCE 
-ANNOUNCEMENT
-JOHN LANE THE BODLEY HEAD
-
-Death in High Heels
-CHRISTIANNA BRAND
-
-      All through the year there flows across the silver doorstep
-of Christophe et Cie a steady stream of shoes. Black, brown
-and grey ; suède and canvas and kid ; the chic of Paris, the cut
-of America, the solid worth of good English leather—tap,
-tap, tap across the parquet. . .
-      The satin slippers of the mannequins twist and turn ;
-Rachel’s elegant court and Irene’s neat square toes fly over
-the deep carpet ; there is a scutter of high blue heels, a
-laughing aside, a disapproving glance from Mr. Bevan. His
-sober Oxfords are planted firmly on the top step of the stair-
-case and he keeps a watchful eye upon his staff ; Victoria and
-Rachel are terribly irresponsible. He says as much to Doon
-whose extravagant high-heeled sandals join his Oxfords upon
-the stairs. There is a tenseness between them and, to cover
-it, Doon launches a diatribe about a missing brooch. Her
-inoffensive secretary shares with the charwoman their ready
-suspicion.
-      Two pairs of satin slippers, two of shabby black, elegant
-court shoes, a pair of high blue heels, a pair of lace-ups, one
-of sandals, a gent’s black Oxfords and a gent’s natty suèdes—
-before the day is out one of these will kick and struggle in the
-agony of death. Before the year is out another pair will dangle,
-quietly at the end of a noose. But all through the year the
-multi-coloured stream of shoes will continue to pass through
-the silver portals in ever-increasing flow—tap, tap, tap
-across the parquet. . . .
-      Miss Brand is a new thriller writer and Death in High Heels
-is an unusually excellent start to a promising career.
-Crown 8vo. 75. 6d.
-
-
-
-
-ADVANCE 
-ANNOUNCEMENT
-JOHN LANE THE BODLEY HEAD
-
-A Baker’s Dozen
-LLEWELYN POWYS
-
-      The late Llewelyn Powys’ work needs no introduction to
-discriminating readers who follow the trend of modern
-writing, and this volume of miscellaneous essays can only
-heighten the reputation of one whose writing is acknowledged
-to be closely related to the work of such masters as Gibbon,
-Pater, Montaigne, Sir Thomas Browne and Charles Lamb.
-      A Baker’s Dozen is a representative cross-section of Llewelyn
-Powys’ work. His fresh and original philosophy, so evident in
-Love and Death (his last published book) and in the exquisite
-essay Glory of Life will be found again in these pages.
-Many of the essays in this volume have already appeared in
-English periodicals and the publishers now have pleasure in
-presenting them for the first time in book form. This is the
-first book of Llewelyn Powys’ to be published since his death
-early this year
-Large Crown 8vo.	65.
-With a frontispiece portrait of the author.
-Decorations by Gertrude M. Powys.
-also by the same author:
-	LOVE AND DEATH		EARTH MEMORIES
-	GLORY OF LIFE		DORSET ESSAYS
-	HENRY HUDSON		SOMERSET ESSAYS
-       		THE TWELVE MONTHS
