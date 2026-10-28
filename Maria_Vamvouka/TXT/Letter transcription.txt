@@ -43,7 +43,7 @@
                     <addrLine>2300 RA Leiden</addrLine>
                 </address>
                 <idno>
-                    <!-- file ID -->
+                    <!-- file ID --> Q70393519401129
                 </idno>
                 <availability>
                     <p>Publicly accessible </p>
@@ -54,10 +54,10 @@
 
             <sourceDesc>
                 <bibl>
-                    <title>Letter from Leonard Woolf to John Lehmann, (29/11/1940)
+                    <title>Letter from <persName key="Q703935">Leonard Woolf</persName> to <persName key="Q1563198">John Lehmann</persName>, (<date when="1940-11-29">29/11/1940</date>)
                     </title>
                     <author>
-                        Leonard Woolf
+                        <persName key="Q703935">Leonard Woolf</persName>
                     </author>
                     <idno type="callNo">
                         <!-- library callnumber -->
@@ -67,7 +67,7 @@
         </fileDesc>
         <encodingDesc>
             <projectDesc>
-                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                <p>Prepared by students of the 2026-2027
                     <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
                     University</p>
             </projectDesc>
@@ -77,7 +77,7 @@
         </encodingDesc>
         <profileDesc>
             <langUsage>
-                <language ident="dut">Dutch</language>
+                <language ident="eng">English</language>
             </langUsage>
             <textClass>
                 <keywords scheme="http://classificationweb.net">
@@ -108,7 +108,7 @@
                 <opener>
                     <dateline>
                         <placeName>
-                            <!-- place name as in letter -->
+                            Monk's House Rodmell
                         </placeName>
                         <date when="1940-11-29">
                             29/11/40
@@ -116,14 +116,11 @@
                     </dateline>
                     <address>
                         <addrLine>
-                            <!-- recipient's name, using <persName> or <orgName> element -->
-                        </addrLine>
-                        <addrLine>
-                            <!-- recipient's address (add <addrLine>s as required) -->
+                            <persName key="Q1563198">John Lehmann</persName>
                         </addrLine>
                     </address>
                     <salute>
-                        Dear John,
+                       Dear<persName key="Q1563198">John</persName>,
                     </salute>
                 </opener>
 				<p>
@@ -131,24 +128,24 @@
 I must at least point out this:
 				</p>
 				<p>
-				(1)	I showed your letter of 31 October to Virginia before I replied to you and
+				(1)	I showed your letter of <date when="1940-10-31">31 October</date> to <persName key="Q40909">Virginia</persName> before I replied to you and
 she also thought it rude, angry, and offensive and that it “was intended in the
 sense” in which I read it. As regards my “advice”, which was so unhelpful, you did
 in fact do exactly what I advised. I do not understand therefore what more I could
 have done.
 				</p>
 				<p>
-				(2)	I had letters from you on October 15, 18, 23, 31 and on Nov. 1 and 5—six com-
-munications in 21 days; from November 5 to November 27—22 days—you never wrote to
+				(2)	I had letters from you on <date when="1940-10-15">October 15</date>, <date when="1940-10-18">18</date>, <date when="1940-10-23">23</date>, <date when="1940-10-31">31</date> and on <date when="1940-11-01">Nov. 1</date> and <date when="1940-11-05">5</date>—six com-</lb>
+munications in 21 days; from <date when="1940-11-05">November 5</date> to <date when="1940-11-27">November 27</date>—22 days—you never wrote to
 me one single line, though I twice wrote to you asking direct questions about the
 Press. That was not the result of bad communications in the postal sense. From
-Nov 6 to Nov 20 I was not even told the sales. During this period of silence Roger
-Fry was apparently reprinted without any communication either to me or to V. who
+<date when="1940-11-06">Nov 6</date> to <date when="1940-11-20">Nov 20</date> I was not even told the sales. During this period of silence <persName key="Q547470">Roger
+Fry</persName> was apparently reprinted without any communication either to me or to <persName key="Q40909">V</persName>. who
 had an important correction to make. We only learnt of the reprint by an ad.
 If that is not being “cut off”, I do not know what would be.
 				</p>
 				<p>
-				(3)	I am in no “blissful illusion” about the difficulty of carrying on the Press
+				(3)	I am in no “blissful illusion” about the difficulty of carrying on the <orgName key="Q1623362">Press</orgName>
 since September and as a matter of fact I expressed my appreciation of it and of 
 what you had done since then when we last met and I agreed that there was no reason
 why you should go every week to Letchworth. At the same interview we agreed that 
@@ -156,26 +153,26 @@ under the circumstances advertising must be left entirely in your hands, and tha
 was why I have been careful not to interfere with suggestions which would almost
 certainly come to you too late. On two occasions when we met in town we discussed
 the appearance of the books which were ready and I told you that I liked them. As
-				<pb>
-for Vita, Day Lewis and William, I have never even been shown a copy of any
+				</pb>
+for <persName key="Q235505">Vita</persName>, <persName key="Q954383">Day Lewis</persName> and <persName key="Q8018119">William</persName>, I have never even been shown a copy of any
 of them, though I understand from the advertisements that they have already
-been published. </pb>
+been published.
 				</p>
 				<p>
-				Your remark about making the Press a going concern, to which I took and take
+				Your remark about making the <orgName key="Q1623362">Press</orgName> a going concern, to which I took and take
 exception, could not possibly refer to the period since September of this year.
 				</p>
                 <p>
                     (4)	I was compelled suddenly to alter my day from Friday to Wednesday this week
-partly because I had to see my sister who is returning to Gambia and partly to
-make arrangements for removal of furniture from M.S. I am afraid that I shall
+partly because I had to see my sister who is returning to <placeName>Gambia</placeName> and partly to
+make arrangements for removal of furniture from <placeName>M.S.</placeName> I am afraid that I shall
 not be able to come up at all next week as I am summoned to sit as a juror at
-the Assizes in Lewes and have been refused exemption.
+the <orgName key="Q2258000">Assizes</orgName> in <placeName>Lewes</placeName> and have been refused exemption.
                 </p>
                 <closer>
                     <signed/>
                     <seg>
-                        LW
+                        <persName key="Q703935">LW</persName>
                     </seg>
                 </closer>
             </div>
