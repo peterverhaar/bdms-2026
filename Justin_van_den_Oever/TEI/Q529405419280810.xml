@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q529405419280810">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Donald Brace to Leonard Woolf, 10 August 1928: A
+                    machine-readable transcription</title>
+                <author>
+                    Donald Brace
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version:</resp>
+                    <name>
+                        Justin van den Oever
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup:</resp>
+                    <name>
+                        Justin van den Oever
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations:</resp>
+                    <name>
+                        Justin van den Oever
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                8 kB
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands</pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    Q529405419280810
+                </idno>
+                <availability>
+                    <p>Publicly accessible</p>
+                </availability>
+                <date>2026</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <persName key="Q5294054">Donald Brace</persName> to 
+					<persName key="Q703935">Leonard Woolf</persName>, <date when="1928-08-10">10 August 1928</date>
+                    </title>
+                    <author>
+                        Donald Brace
+                    </author>
+                    <idno type="callNo">
+                        MS 2750/C/21/4/15
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2026-2027
+                    The Book in the Digital Age: Agents and Medium course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Donald Brace clarifies the fourth clause on Mr Gaige's imprint and speaks of publishing conflicts. 
+					Brace also discusses European and British copyright issues. He enquires after the publication date 
+					in England.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            New York
+                        </placeName>
+                        <date when="1928-08-10">
+                            10 August 1928
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <persName key="Q703935">Leonard Woolf</persName></addrLine>
+							<addrLine>c/o <orgName key="Q1623362">The Hogarth Press</orgName>
+                        </addrLine>
+                        <addrLine>
+                           Travistock Square 52</addrLine> <addrLine>London</addrLine>
+                    </address>
+                    <salute>
+                        Dear Mr. Woolf:
+                    </salute>
+                </opener>
+                <p>
+                    I have your letter of <date when="1928-07-28">July 28th</date> referring to the <lb/> 
+fourth clause in the agreement with <persName key="Q52156408">Mr. Gaige</persName>. Your <lb/>
+understanding of Mr. Gaige’s intention is substantially <lb/>
+correct. The entire edition will be printed with <persName>Mr. Gaige</persName>’s <lb/>
+imprint, and of this edition <orgName key="Q34941688">Dulau</orgName> will take 200 copies for <lb/>
+sale in <placeName key="Q21">England</placeName>. The fourth clause is intended to express <lb/>
+two things: first, <persName>Mr. Gaige</persName>’s obligation to get this <lb/>
+edition out so as not to interfere with or delay the <lb/>
+publication of the book by you and ourselves; second, the <lb/>
+requirement that I have insisted on, that his edition should <lb/>
+do nothing to cloud the copyright. Technically, the limited <lb/>
+edition must be published or sold simultaneously in the two <lb/>
+countries; prior publication in <placeName key="Q30">America</placeName> alone would probably <lb/>
+invalidate the British and European copyright, and it is <lb/>
+my view that if <orgName>Dulau</orgName> puts copies on sale on the same day that <lb/>
+<persName>Mr. Gaige</persName> publishes in <placeName>America</placeName>, the copyright will be <lb/>
+effective in both countries. I think this is important for <lb/>
+all of us. The situation is, therefore, that there will be <lb/>
+no publication in <placeName>England</placeName> in the sense of having a publisher <lb/>
+and a separate imprint and all that, but that sales will take <lb/>
+place as a protection to you.</p>
+
+	<p>To this limited extent there is a question about <lb/>
+the date of publication in <placeName>England</placeName>, and it seems to me an <lb/>
+important one. I hope this explains the matter.
+                </p>
+                <closer>
+                    <salute>
+                        Yours sincerely,
+                    </salute>
+                    <signed>Donald C. Brace</signed>
+                    <seg type="postscript">
+                        DCB.
+                    </seg>
+					<address>
+                        <addrLine>
+                            <persName>Donald Brace</persName></addrLine>
+							<addrLine>c/o <orgName key="Q5654997">Harcourt, Brace and Company, Inc. Publishers</orgName>
+                        </addrLine>
+                        <addrLine>
+                           Madison Avenue 383</addrLine> <addrLine>New York</addrLine>
+                    </address>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
