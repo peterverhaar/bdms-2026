@@ -4,7 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter from <note><p>titled Miss by Leonard Woolf in correspondence dating 1928-01-20</p></note>C.K. Cumming to Leonard Woolf, April 1, 1928: A
+                <title>Letter from C.K. Cumming to Leonard Woolf, April 1, 1928: A
                     machine-readable transcription</title>
                 <author>
                    C. K. Cumming
@@ -98,7 +98,7 @@
         <front>
             <div type="summary">
                 <p>
-                   C. K. Cumming informs Leonard Woolf that she had declined Woolf's job offer as the Hogarth Press manager in hopes of a better position being offered from other firms, and now regrets the decision. She asks Woolf that, since he has connections in the publishing industry, if he could inform her of opportunities in any firms expanding their business, as her application would have a higher rate of success. Typescript letter signed by C. K. Cumming.
+                   C. K. Cumming <note><p>titled Miss by Leonard Woolf in correspondence dating 1928-01-20</p></note> informs Leonard Woolf that she had declined Woolf's job offer as the Hogarth Press manager in hopes of a better position being offered from other firms, and now regrets the decision. She asks Woolf that, since he has connections in the publishing industry, if he could inform her of opportunities in any firms expanding their business, as her application would have a higher rate of success. Typescript letter signed by C. K. Cumming.
                 </p>
             </div>
         </front>
@@ -119,7 +119,7 @@
                         </addrLine>
                         <addrLine>
                             38 Torrington Square, 
-                           <lb/>LLondon W.C. 1,
+                           <lb/>London W.C. 1,
                             <lb/><date>April 1, 1928.</date>							
                         </addrLine>
                     </address>
