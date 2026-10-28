@@ -68,7 +68,7 @@
         <encodingDesc>
             <projectDesc>
                 <p>Prepared by students of the 2026-2027
-                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    The Book in the Digital Age: Agents and Medium course, Book and Digital Media Studies, Leiden
                     University</p>
             </projectDesc>
             <editorialDecl>
@@ -124,49 +124,49 @@
                     </salute>
                 </opener>
 				<p>
-				I do not wish, as I said, to get into a wrangle with you about this, but
+				I do not wish, as I said, to get into a wrangle with you about this, but </lb>
 I must at least point out this:
 				</p>
 				<p>
-				(1)	I showed your letter of <date when="1940-10-31">31 October</date> to <persName key="Q40909">Virginia</persName> before I replied to you and
-she also thought it rude, angry, and offensive and that it “was intended in the
-sense” in which I read it. As regards my “advice”, which was so unhelpful, you did
-in fact do exactly what I advised. I do not understand therefore what more I could
-have done.
+				(1)	I showed your letter of <date when="1940-10-31">31 October</date> to <persName key="Q40909">Virginia</persName> before I replied to you and </lb>
+she also thought it rude, angry, and offensive and that it &quot;was intended in the </lb>
+sense&quot; in which I read it. As regards my &quot;advice&quot;, which was so unhelpful, you did </lb>
+in fact do exactly what I advised. I do not understand therefore what more I could </lb>
+have done. 
 				</p>
 				<p>
 				(2)	I had letters from you on <date when="1940-10-15">October 15</date>, <date when="1940-10-18">18</date>, <date when="1940-10-23">23</date>, <date when="1940-10-31">31</date> and on <date when="1940-11-01">Nov. 1</date> and <date when="1940-11-05">5</date>—six com-</lb>
-munications in 21 days; from <date when="1940-11-05">November 5</date> to <date when="1940-11-27">November 27</date>—22 days—you never wrote to
-me one single line, though I twice wrote to you asking direct questions about the
-Press. That was not the result of bad communications in the postal sense. From
+munications in 21 days; from <date when="1940-11-05">November 5</date> to <date when="1940-11-27">November 27</date>—22 days—you never wrote to </lb>
+me one single line, though I twice wrote to you asking direct questions about the </lb>
+Press. That was not the result of bad communications in the postal sense. From </lb>
 <date when="1940-11-06">Nov 6</date> to <date when="1940-11-20">Nov 20</date> I was not even told the sales. During this period of silence <persName key="Q547470">Roger
-Fry</persName> was apparently reprinted without any communication either to me or to <persName key="Q40909">V</persName>. who
-had an important correction to make. We only learnt of the reprint by an ad.
-If that is not being “cut off”, I do not know what would be.
+Fry</persName> was apparently reprinted without any communication either to me or to <persName key="Q40909">V</persName>. who </lb>
+had an important correction to make. We only learnt of the reprint by an ad. </lb>
+If that is not being &quot;cut off&quot;, I do not know what would be. 
 				</p>
 				<p>
-				(3)	I am in no “blissful illusion” about the difficulty of carrying on the <orgName key="Q1623362">Press</orgName>
-since September and as a matter of fact I expressed my appreciation of it and of 
-what you had done since then when we last met and I agreed that there was no reason
-why you should go every week to Letchworth. At the same interview we agreed that 
-under the circumstances advertising must be left entirely in your hands, and that
-was why I have been careful not to interfere with suggestions which would almost
-certainly come to you too late. On two occasions when we met in town we discussed
-the appearance of the books which were ready and I told you that I liked them. As
+				(3)	I am in no &quot;blissful illusion&quot; about the difficulty of carrying on the <orgName key="Q1623362">Press</orgName> </lb>
+since September and as a matter of fact I expressed my appreciation of it and of </lb>
+what you had done since then when we last met and I agreed that there was no reason </lb>
+why you should go every week to <placeName>Letchworth</placeName>. At the same interview we agreed that </lb>
+under the circumstances advertising must be left entirely in your hands, and that </lb>
+was why I have been careful not to interfere with suggestions which would almost </lb>
+certainly come to you too late. On two occasions when we met in town we discussed </lb>
+the appearance of the books which were ready and I told you that I liked them. As </lb>
 				</pb>
-for <persName key="Q235505">Vita</persName>, <persName key="Q954383">Day Lewis</persName> and <persName key="Q8018119">William</persName>, I have never even been shown a copy of any
-of them, though I understand from the advertisements that they have already
-been published.
+for <persName key="Q235505">Vita</persName>, <persName key="Q954383">Day Lewis</persName> and <persName key="Q8018119">William</persName>, I have never even been shown a copy of any </lb>
+of them, though I understand from the advertisements that they have already </lb>
+been published. 
 				</p>
 				<p>
-				Your remark about making the <orgName key="Q1623362">Press</orgName> a going concern, to which I took and take
+				Your remark about making the <orgName key="Q1623362">Press</orgName> a going concern, to which I took and take </lb>
 exception, could not possibly refer to the period since September of this year.
 				</p>
                 <p>
-                    (4)	I was compelled suddenly to alter my day from Friday to Wednesday this week
-partly because I had to see my sister who is returning to <placeName>Gambia</placeName> and partly to
-make arrangements for removal of furniture from <placeName>M.S.</placeName> I am afraid that I shall
-not be able to come up at all next week as I am summoned to sit as a juror at
+                    (4)	I was compelled suddenly to alter my day from Friday to Wednesday this week </lb>
+partly because I had to see my sister who is returning to <placeName>Gambia</placeName> and partly to </lb>
+make arrangements for removal of furniture from <placeName>M.S.</placeName> I am afraid that I shall </lb>
+not be able to come up at all next week as I am summoned to sit as a juror at </lb>
 the <orgName key="Q2258000">Assizes</orgName> in <placeName>Lewes</placeName> and have been refused exemption.
                 </p>
                 <closer>
