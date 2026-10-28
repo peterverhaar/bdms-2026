@@ -4,7 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter from C.K. Cumming to Leonard Woolf, April 1, 1928: A
+                <title>Letter from <note><p>titled Miss by Leonard Woolf in correspondence dating 1928-01-20</p></note>C.K. Cumming to Leonard Woolf, April 1, 1928: A
                     machine-readable transcription</title>
                 <author>
                    C. K. Cumming
@@ -30,7 +30,7 @@
                 </respStmt>
             </titleStmt>
             <extent>
-                1.63 kB
+                8 kB
             </extent>
 
 
@@ -59,7 +59,7 @@
                        C. K. Cumming
                     </author>
                     <idno type="callNo">
-                        <!-- library callnumber -->
+                        SxMs-13/1/Q/3/D
                     </idno>
                 </bibl>
             </sourceDesc>
@@ -76,7 +76,7 @@
         </encodingDesc>
         <profileDesc>
             <langUsage>
-                <language ident="dut">Dutch</language>
+                <language ident="eng">English</language>
             </langUsage>
             <textClass>
                 <keywords scheme="http://classificationweb.net">
@@ -119,8 +119,8 @@
                         </addrLine>
                         <addrLine>
                             38 Torrington Square, 
-                           <lb/>London W.C. 1,
-						   <lb/><date>April 1, 1928.</date>							
+                           <lb/>LLondon W.C. 1,
+                            <lb/><date>April 1, 1928.</date>							
                         </addrLine>
                     </address>
                     <salute>
@@ -129,10 +129,10 @@
                 </opener>
                 <p>
                     You may think it rather extraordinary
-                    that I should ask you for any help <note><p>See correspondences 1928-01-20 and 1928-01-24. . The first letter was from Leonard Woolf, inviting C.K. Cumming to come work for him as Press Manager but in the second letter she declined.</p></note>, but things have 
+                    that I should ask you for any help <note><p>See correspondences 1928-01-20 and 1928-01-24. The first letter was from Leonard Woolf, inviting C.K. Cumming to come work for him as Press Manager but in the second letter she declined.</p></note>, but things have 
                     come out very unhappily for me. 
                     
-                    I think that the thing that really
+                    <lb/>I think that the thing that really
                     weighed most with me in January <note><p>See letters from 1928-01-20 and 1928-01-24></p></note> and caused all my vacil-
                     lation and consequent wrong decision was the fact that
                     I had previously had some dealing with another firm. 
@@ -142,17 +142,17 @@
                     and I have regretted a hundred times both my indecision
                     and my over-scrupulousness. 
                     
-                    Anyhow, after keeping me in suspense for
+                    <lb/>Anyhow, after keeping me in suspense for
                     weeks (it is months since the first conversation), they
                     have finally decided to promote someone inside the firm
                     instead (just what I might have expected) and the whole
                     thing falls to the ground, a great disappointment. 
                     
-                    This means that I have to begin again to 
+                    <lb/>This means that I have to begin again to 
                     canvass all the firms in London, which is very disheart-
                     ening. It is so difficult to know the right moment. 
                     
-                    What I thought I would ask you is this. 
+                    <lb/>What I thought I would ask you is this. 
                     As you are inside the publishing world, you might pos-
                     sibly hear in advance that some firm was contemplating
                     changes or expansion. An application under those cir-
@@ -169,7 +169,6 @@
                     </salute>
                     <signed/> <persName>C. K. Cumming<note><p>This is not text but a signature in pen</p></note></persName>
                     <seg>
-                        <!-- post scriptum -->
                     </seg>
                 </closer>
             </div>
