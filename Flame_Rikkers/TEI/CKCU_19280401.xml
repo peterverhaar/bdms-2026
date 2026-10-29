@@ -157,7 +157,7 @@
                     <salute>
                         Yours sincerely
                     </salute>
-                    <signed/> <persName>C. K. Cumming<note><p>In the real letter, this is not text but a signature in pen.</p></note></persName>
+                    <signed><persName>C. K. Cumming<note><p>In the real letter, this is not text but a signature in pen.</p></note></persName></signed>
                     <seg>
                     </seg>
                 </closer>
