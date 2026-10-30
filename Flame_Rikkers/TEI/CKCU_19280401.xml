@@ -117,7 +117,7 @@
                     </salute>
                 </opener>
                 <p>
-                    You may think it rather extraordinary
+                    You<note><p>Each first sentence of a new paragraph is indented to the right</p></note> may think it rather extraordinary
                     <lb/>that I should ask you for any help <note><p>See correspondences dating from 1928-01-20 and 1928-01-24 in archive folder 'SxMs-13/1/Q/3/D: Correspondence with and about employees and prospective employees'. The first letter was from Leonard Woolf to invite Miss C.K. Cumming to come work for him as Press Manager. The second letter is Miss C.K. Cumming's response to Mr. Woolf's letter, in which she declines his offer.</p></note>, but things have 
                     <lb/>come out very unhappily for me. 
                     <lb/>
@@ -155,7 +155,7 @@
                 </p>
                 <closer>
                     <salute>
-                        Yours sincerely
+                        Yours sincerely<note><p>Indented to the right in original letter, albeit further than the first sentence of each paragraph.</p></note>
                     </salute>
                     <signed><persName>C. K. Cumming<note><p>In the real letter, this is not text but a signature in pen.</p></note></persName></signed>
                     <seg>
