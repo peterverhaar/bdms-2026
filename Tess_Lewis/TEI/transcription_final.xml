@@ -5,8 +5,10 @@
         <fileDesc>
             <titleStmt>
                 <title>Letter from<persName key="Q773828">C.L.R. James</persName>
-                    to <persName key= "Q703935">Leonard Woolf</persName> <date when="1933-12-07">7/12/1933</date>: 
-                    A machine-readable transcription</title>
+                    to <persName key="Q703935">Leonard Woolf</persName>
+                    <date when="1933-12-07">7/12/1933</date>: 
+                    A machine-readable transcription
+                </title>
                 <author>
                     <persName key="Q773828">C.L.R. James</persName>
                 </author>
@@ -54,7 +56,7 @@
 
             <sourceDesc>
                 <bibl>
-                    <title>Letter from <persName key="Q773828">C.L.R. James</persName> to <persName key= "Q703935">Leonard Woolf</persName>, <date when="1933-12-07"> 7/12/1933 </date>
+                    <title>Letter from<persName key="Q773828">C.L.R. James</persName>to<persName key="Q703935">Leonard Woolf</persName>,<date when="1933-12-07">7/12/1933</date>
                     </title>
                     <author>
                         <persName key="Q773828">C.L.R. James</persName>
@@ -99,8 +101,8 @@
         <front>
             <div type="summary">
                 <p>
-                    Letter from <persName key="Q773828">C.L.R. James</persName> to <persName key= "Q703935">Leonard Woolf</persName>, <date when="1933-12-07">7/12/1933</date>
-                    Discussing the delayed payment of his account to <orgName key="Q1623362">Hogarth Press.</orgName>  
+                    Letter from <persName key="Q773828">C.L.R. James</persName>to <persName key="Q703935">Leonard Woolf</persName>, <date when="1933-12-07">7/12/1933</date>
+                    Discussing the delayed payment of his account to <orgName key="Q1623362">Hogarth Press</orgName> and his plans for repayment.  
                 </p>
             </div>
         </front>
@@ -108,58 +110,60 @@
             <div type="letter">
                 <opener>
                     <dateline>
-                        <placeName>9 Heathcote Str</placeName>
+                        <placeName key="Q84">London</placeName>
                         <date when="1933-12-07">Dec 7th 1933</date>
                     </dateline>
                     <address>
-                        <addrLine>
-                            <persName key="Q773828">C.L.R. James</persName>
-                        </addrLine>
+                            <addrLine><persName key="Q703935">Leonard Woolf</persName></addrLine>
+                            <addrLine>c/o<orgName key="Q1623362">Hogarth Press</orgName></addrLine>
+                            <addrLine><placeName key="Q2500974">Richmond</placeName></addrLine>
+                            <addrLine><placeName key="Q84">London</placeName></addrLine>
+                            <addrLine><placeName key="Q145">United Kingdom</placeName></addrLine>
                     </address>
                     <salute>
-                        Dear <persName key= "Q703935">Mr. Woolf,</persName>
+                        Dear <persName key="Q703935">Mr. Woolf,</persName>
                     </salute>
                 </opener>
                 <p>
-                        I regret extremely that
-                        the <orgName key="Q1623362">Hogarth Press</orgName> has had to<lb/>
-                        write to me so often about the<lb/>
-                        account.<lb/>
-                        I was sent to this country to<lb/>
-                        study law but with my own mind<lb/>
-                        set on literature and politics. I<lb/>
-                        worked for the money to publish<lb/>
-                        the pamphlet and got it in as<lb/>
-                        much as you had accepted the<lb/>
-                        manuscript. But I received no<lb/>
-                        encouragement to be allowed to<lb/>
-                        live in <placeName key="Q84">London</placeName> and try to write.<lb/>
-                        In April I received one or two offers<lb/>
-                        of articles about the <orgName key="Q912881">W.I. cricket<lb/>
-                        team;</orgName> and realizing that perhaps<lb/>
-                        here was a chance to avoid the<lb/>
-                        law, which I desire intensely,<lb/>
-                        I took the risk and came into<lb/>
-                    <placeName key="Q84">London</placeName> on my own with the <measure type="currency" quantity="16" unit="GBP">£16</measure><lb/>
-                        I know I should have paid, but<lb/>
-                        it was my only way out. I have<lb/>
-                        not been unsuccessful. I have<lb/> 
-                        supported myself and have<lb/>
-                        promises of work next summer<lb/>
-                        from the <orgName key="Q11148">Manchester Guardian.</orgName> But<pb/>
+                        I regret extremely that <lb/>
+                        the <orgName key="Q1623362">Hogarth Press</orgName> has had to <lb/>
+                        write to me so often about the <lb/>
+                        account. <lb/>
+                        I was sent to this country to <lb/>
+                        study law but with my own mind <lb/>
+                        set on literature and politics. I <lb/>
+                        worked for the money to publish <lb/>
+                        the pamphlet and got it in as <lb/>
+                        much as you had accepted the <lb/>
+                        manuscript. But I received no <lb/>
+                        encouragement to be allowed to <lb/>
+                        live in <placeName key="Q84">London</placeName> and try to write. <lb/>
+                        In April I received one or two offers <lb/>
+                        of articles about the <orgName key="Q912881">W.I. cricket <lb/>
+                        team;</orgName> and realizing that perhaps <lb/>
+                        here was a chance to avoid the <lb/>
+                        law, which I desire intensely, <lb/>
+                        I took the risk and came into <lb/>
+                    <placeName key="Q84">London</placeName> on my own with the <measure type="currency" quantity="16" unit="GBP">&#xA3;16</measure> <lb/>
+                        I know I should have paid, but <lb/>
+                        it was my only way out. I have <lb/>
+                        not been unsuccessful. I have <lb/> 
+                        supported myself and have <lb/>
+                        promises of work next summer <lb/>
+                        from the <orgName key="Q11148">Manchester Guardian.</orgName> But <pb/>
                         
-                        the winter has been rather a<lb/>
-                        blank. I am sure, however,<lb/>
-                        that I shall raise the<lb/>
-                        money before the end of the<lb/>
-                        month; but it is comparatively<lb/>
-                        speaking a large sum and<lb/>
-                        it will take me a little<lb/>
-                        time. That is why I wished<lb/>
-                        to see you a few days<lb/>
-                        ago. I would not want<lb/> 
-                        you to think that, the<lb/>
-                        book being published,<lb/>
+                        the winter has been rather a <lb/>
+                        blank. I am sure, however, <lb/>
+                        that I shall raise the <lb/>
+                        money before the end of the <lb/>
+                        month; but it is comparatively <lb/>
+                        speaking a large sum and <lb/>
+                        it will take me a little <lb/>
+                        time. That is why I wished <lb/>
+                        to see you a few days <lb/>
+                        ago. I would not want <lb/> 
+                        you to think that, the <lb/>
+                        book being published, <lb/>
                         I neglected the matter.
                 </p>
                 <closer>
@@ -169,6 +173,10 @@
                     <signed>
                         <persName key="Q773828">C.L.R. James</persName>
                     </signed>
+                    <address>
+                        <addrLine>9 Heathcote Street</addrLine>
+                        <addrLine><placeName key="Q84">London</placeName></addrLine>
+                    </address>
                 </closer>
             </div>
         </body>
