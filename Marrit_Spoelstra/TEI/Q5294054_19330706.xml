@@ -157,9 +157,9 @@
                     <salute>Yours sincerely,</salute> 
                     <signed><persName key="Q5294054">Donald C. Brace.</persName><note><p>American publisher and editor.</p></note></signed>
                         <address>
-                            <addrLine><orgName key="Q5654997">Harcourt, Brace and Company, Inc. Publishers</orgName><note><p>American publishing company, founded in 1919.</p></note></addrLine>
-                            <addrLine>383 Madison Avenue</addrLine>
-                            <addrLine>New York</addrLine>
+                            <addrLine><orgName key="Q5654997">Harcourt, Brace and Company, Inc. Publishers,</orgName><note><p>American publishing company, founded in 1919.</p></note></addrLine>
+                            <addrLine>383 Madison Avenue,</addrLine>
+                            <addrLine>New York.</addrLine>
                         </address>
                     <seg type="initials">DCB:CMc.</seg>
                 </closer>
