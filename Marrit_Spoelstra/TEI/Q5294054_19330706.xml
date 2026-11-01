@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q5294054_19330706">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Donald Brace to Leonard Woolf, 06 July 1933: a
+                    machine-readable transcription</title>
+                <author>
+                    Donald Brace
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Marrit Spoelstra
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Marrit Spoelstra
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Marrit Spoelstra
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    Sender: Donald Brace  
+                    Date: 6 July 1933
+                    File ID: Q5294054_19330706
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2026</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <persName key= "Q5294054">Donald Brace</persName> to <persName key= "Q703935">Leonard Woolf</persName>, <date when="1933-07-06">6 July 1933</date>: A
+                    </title>
+                    <author>
+                        Donald Brace
+                    </author>
+                    <idno type="callNo">MS 2750/C/21/4/87</idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2026-2027 The Book in the Digital Age: Agents and Medium course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Correspondence about the publication date of Vigrinia Woolf's novel: Flush. Donald Brace informs that he 
+                    will choose the same publication date for Flush - October 5th. He requests 2 copies of Woolf's editions for copyright 
+                    purposes and has enclosed a letter from the Atlantic Monthly.
+                    Typescript letter signed by Brace [enclosure not present at the time of cataloguing].
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <seg type="copy"><emph rend="underlined">Copy.</emph></seg>
+                    <dateline>
+                        <placeName>New York</placeName>
+                        <date when="1933-07-06">July 6, 1933.</date>
+                    </dateline>
+                    <address>
+                        <addrLine><persName key="Q703935">Leonard Woolf, <choice><abbr>Esq.</abbr><expan>Esquire</expan></choice></persName></addrLine>
+                        <addrLine>c/o <orgName key= "Q1623362">The Hogarth Press</orgName><note><p>The Hogarth Press was a British publishing house founded by 
+                            Leonard Woolf and his wife Virginia Woolf.</p></note></addrLine>
+                        <addrLine>52 Tavistock Square</addrLine>
+                        <addrLine>London, W.C.l.<choice><sic>W.C.l.</sic><corr>W.C.1.</corr></choice></addrLine>
+                    </address>
+                    <salute>Dear <choice><abbr>Mr.</abbr><expan>Mister</expan></choice> Woolf:<note><p>Leonard Woolf was a British political theorist, author, 
+                            publisher, and civil servant. He was married to author Virginia Woolf.</p></note></salute>
+                </opener>
+                    <p>I am delighted to hear that <orgName key="">the Book Society</orgName><note><p>The first British monthly
+                    book sales club, modelled on the American Book-of-the-Month Club.</p></note>is taking <title>FLUSH</title><note><p>Flush: A Biography, is an imaginative biography of 
+                    Elizabeth Barrett Browning (poet of the Victorian era)'s cocker spaniel, written by Virginia Woolf and 
+                    published in 1933.</p></note>as their October selection. The changes in your 
+                    plans need not, I think, affect us at all. We were already 
+                    making a larger book than you were, and we shall go ahead with 
+                    <persName key="Q255294"><choice><abbr>Mrs.</abbr><expan>Missus</expan></choice>Bell</persName>’s drawings as end papers and with the three photo-
+                    graphs we already have.<note><p>Vanessa Bell, was an English painter and interior designer, and the older sister of Virginia Woolf, she designed the endpapers for 
+                    Virginia's book FLUSH.</p></note></p> 
+
+                    <p>I note that your publication date will now be 
+                    <date when="1933-10-05">October fifth</date>. We shall choose the same date unless something, 
+                    perhaps a book club choice here, should make a change necessary.
+                    In any event, of course our date couldn’t be before 
+                    <date when="1933-10-05">October fifth</date>. The <orgName key="Q4943125">Book-of-the-Month Club</orgName> <note><p>American bookclub, founded in 1926</p></note> is definitely interested, 
+                    but as three of their judges are in Europe, it will be some 
+                    little time before we shall have their final decision.</p>
+
+                    <p>I wish you would send me two copies of your edition
+                    when you have it ready so that we may be in a position to use
+                    them, if we need to, for copyrighting purposes.</p>
+
+                    <p>We shall be glad to send you £20 as our fee for the use of <persName key="Q255294"><choice><abbr>Mrs.</abbr><expan>Missus</expan></choice>Bell</persName>’s end papers.</p>
+
+                    <p>Thank you for cabling so promptly the corrections
+                    in respect to the dates in <title>FLUSH</title>. I don’t know whether <orgName key="Q1542536">the
+                    Atlantic</orgName> <note><p>American literary and cultural magazine, and publisher</p></note>will have time to correct all of them or not, but
+                    of course we are correcting them in the book.</p>
+
+                    <p>See enclosed letter from <orgName key="Q1542536">the Atlantic</orgName> just received.</p>
+                <closer>
+                    <salute>With kind regards,</salute>
+                    <salute>Yours sincerely,</salute> 
+                    <signed><persName key="Q5294054">Donald C. Brace.</persName><note><p>American publisher and editor</p></note></signed>
+                        <address>
+                            <addrLine><orgName key="Q5654997">Harcourt, Brace and Company, Inc. Publishers</orgName><note><p>American publishing company, founded in 1919</p></note></addrLine>
+                            <addrLine>383 Madison Avenue</addrLine>
+                            <addrLine>New York</addrLine>
+                        </address>
+                    <seg type="initials">DCB:CMc.</seg>
+                </closer>
+            </div>
+        </body>
+    </text>  
+</TEI>
