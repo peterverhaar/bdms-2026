@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
-    <!-- replace xxxxxxxxxx with file id -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DBRA_19330419">
+    
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter from Audrey Heffill to Peggy Belsher, 18/04/1932: A
+                <title>Letter from Donald Brace to Leonard Woolf,  19/04/1933: A
                     machine-readable transcription</title>
                 <author>
-                    Audrey Heffill
+                    Donald Brace
                 </author>
                 <principal>Prof. dr. Adriaan van der Weel</principal>
                 <respStmt>
@@ -43,7 +43,7 @@
                     <addrLine>2300 RA Leiden</addrLine>
                 </address>
                 <idno>
-                    <!-- file ID -->
+                    DBRA_19330419
                 </idno>
                 <availability>
                     <p>Publicly accessible </p>
@@ -54,13 +54,13 @@
 
             <sourceDesc>
                 <bibl>
-                    <title>Letter from Audrey Heffill to Peggy Belsher, 18/04/1932
+                    <title>Letter from <persName key="Q5294054">Donald Brace</persName> to <persName key="Q703935">Leonard Woolf</persName>, 19/04/1933
                     </title>
                     <author>
-                        Audrey Heffill
+                        Donald Brace
                     </author>
                     <idno type="callNo">
-                        <!-- library callnumber maybe MS 2750/410/47 -->
+                        MS 2750/C/21/4
                     </idno>
                 </bibl>
             </sourceDesc>
@@ -77,7 +77,7 @@
         </encodingDesc>
         <profileDesc>
             <langUsage>
-               TODO <language ident="dut">Dutch</language>
+                <language ident="eng">English</language>
             </langUsage>
             <textClass>
                 <keywords scheme="http://classificationweb.net">
@@ -99,7 +99,7 @@
         <front>
             <div type="summary">
                 <p>
-                    <!-- summary of contents -->
+                    Typed copies of correspondence with Harcourt, Brace and Company regarding American rights in Virginia Woolf's works
                 </p>
             </div>
         </front>
@@ -108,36 +108,59 @@
                 <opener>
                     <dateline>
                         <placeName>
-                            Stone House,</lb>
-                            <--!(tab)--> Victoria Road,</lb>
-                            <--!(tab*2)-->Sevenoaks.
+                           New York
                         </placeName>
-                        <date when="YYYY-MM-DD">
-                            18th April, 1932.
+                        <date when="1933-04-19">
+                            April 19, 1933.
                         </date>
                     </dateline>
                     <address>
                         <addrLine>
-                            <!-- recipient's name, using <persName> or <orgName> element -->
+                            <persName key= "Q703935">Leonard Woolf</persName>, Esq.
                         </addrLine>
                         <addrLine>
-                            <!-- recipient's address (add <addrLine>s as required) -->
+                            52 Tavistock Square
+                        </addrLine>
+                         <addrLine>
+                            London, W.C.l
                         </addrLine>
                     </address>
-                    <salute>
-                        <!-- opening salutation -->
-                    </salute>
+                    <salute>Dear Mr. Woolf:</salute>
                 </opener>
                 <p>
-                    <!-- text of letter -->
+                I recieved yesterday your cable reading: <lb/>
+                "Accept Atlantic Hogarth." Upon recieveng it, I telephoned <lb/>
+                to <placeName>Boston</placeName> and talked with <persName>Mr. Sedgwick</persName> and succeded in <lb/>
+                persuading him to push the price up to <!--dollar-->&#x24;1500.00. The sale of <lb/>
+                the serial rights is therefore concluded at that figure. <lb/>
+                I am sure you won't mind the additional sum, and the price <lb/>
+                of &#x24;1500.00 seems more appropriate than the &#x24;1200.00 he offered. <lb/>
+                </p>
+
+                <p>
+                I assume that you have gone ahead to set up <lb/>
+                the book by this time, and I am hoping that we may receive <lb/>
+                corrected proofs before long. It would be well to send us <lb/>
+                two sets, one of which I might send on to the <orgName>Atlantic</orgName>. <lb/>
+                No doubt, it will be better for them to print from the <lb/>
+                corrected version if possible. Also, although book pub-<lb/>
+                lication is put off until October, we shall still want as <lb/>
+                complete samples as possible early in June. I should be <lb/>
+                glad, therefore, if we might have the photographs you <lb/>
+                select as soon as possible, as well as the corrected proofs: <lb/>
+                or if the corrected proofs are to be long in coming, at <lb/>
+                least the photographs.
                 </p>
                 <closer>
                     <salute>
-                        <!-- closing salutation -->
+                        With kind regards to you both,
                     </salute>
-                    <signed/>
+                    <salute>
+                        Yours sincerely,
+                    </salute>
+                    <signed>Donald Brace</signed>
                     <seg>
-                        <!-- post scriptum -->
+                        DCB:CMc
                     </seg>
                 </closer>
             </div>
