@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q529405419290801">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Donald Brace to Leonard Woolf, 1 August 1929: A
+                    machine-readable transcription</title>
+                <author>
+                    Donald Brace
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Milou Snikkers
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Milou Snikkers
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Milou Snikkers
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                14kB
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    Q529405419290801
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2026</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <persName type="sender" key="Q5294054">Donald Brace</persName> to <persName type="recipient" key="Q703935">Leonard Woolf</persName>, <date when="1929-08-01">1 August 1929</date>
+                    </title>
+                    <author>
+                        Donald Brace
+                    </author>
+                    <idno type="callNo">
+                        MS 2750/C/21/4/33
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2026-2027
+                    The Book in the Digital Age course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Donald Brace informs Leonard Woolf that the Fountain Press' copyright safeguard of A Room of One's Own is not suitable enough and clarifies the procedure of obtaining the copyright. 
+                    Additionally, he informs Woolf that he prefers the limited edition is simultaneously published with the Company's edition.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            London
+                        </placeName>
+                        <date when="1929-08-01">
+                            August 1, 1929.
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <persName>
+                                Leonard Woolf
+                            </persName>
+                        </addrLine>
+                        <addrLine>52 Tavistock Square</addrLine>
+                        <addrLine>London, W.C.1.</addrLine>
+                    </address>
+                    <salute>
+                        Dear Mr. Woolf:
+                    </salute>
+                </opener>
+                <p>
+                    I have just received your letter of <date when="1929-07-23">July 23rd</date> on <lb/>
+                    the subject of the limited edition of <persName key="Q40909">Mrs. Woolf’s</persName> <title>A ROOM <lb/>
+                    OF ONE’S OWN </title><note><p>A Room of One's Own is an extended essay written by Virginia Woolf. The title was published by Hogarth Press in England and Harcourt, Brace and Company in America in 1929. The essay is divided into six chapters and based on two lectures Virginia Woolf gave at Newnham College and Girton College.</p></note>. I hope my cable in reply to yours explained <lb/>
+                    my view of the copyright question with reasonable clearness. <lb/>
+                    When I gave the manuscript to <persName key="MAPP0013">Mr. Wells</persName>, I explained that we <lb/>
+                    did not agree with his view of the copyright matter and that <lb/>
+                    we were making a condition that the book should be printed <lb/>
+                    in this country. We had some discussion of the matter <lb/>
+                    at that time, and the next I heard about it was your cable. When <lb/>
+                    <persName>Mr. Wells</persName> says that he can safeguard the copyright by depositing <lb/>
+                    two copies in Washington, he is, it seems to me, rather <lb/>
+                    curiously evading the point. It is, of course, true that we <lb/>
+                    can obtain ad interim copyright for a book by a foreign author <lb/>
+                    in the English language. This is a procedure we have followed <lb/>
+                    with all of <persName>Mrs. Woolf’s</persName> books and which we regularly follow <lb/>
+                    with all books by English authors unless it turns out that we <lb/>
+                    are publishing simultaneously. But going through this formality <lb/>
+                    or going through any of the formalities of copyright doesn’t mean <lb/>
+                    that the copyright is sound if it is open to attack. Our view <lb/>
+                    and the view of most publishers here as far as I know is <lb/>
+                    that the publication of an edition in this country from <lb/>
+                    imported sheets does invalidate the copyright when such <lb/>
+                    publication is made with the consent of the author or the person <lb/>
+                    who controls the rights. The first step in obtaining <lb/>
+                    copyright in this country is publication, and the law requires <lb/>
+                    that books published in this country must be printed here in <lb/>
+                    order to obtain copyright. I regard the copyright as being <lb/>
+                    of more importance to you than to us, at any rate of equal <lb/>
+                    importance to you. Just how important it may be, one never <lb/>
+                    knows. It is probably less important in the case of a book <lb/>
+                    like <title>A ROOM OF ONE’S OWN</title> than it would be in the case of a novel <lb/>
+                    where dramatic and picture rights might be involved as well as <lb/>
+                    book rights. The life of copyright under our law is 56 years, <lb/>
+                    and it is, of course, impossible to tell how important the <lb/>
+                    matter may turn out to be during that period. We can go <lb/>
+                    through the formalities of making copyright registration after <pb/>
+                    the publication of an imported edition, and if no one ever <lb/>
+                    infringes no question will ever arise, but if there should <lb/>
+                    be an infringement I think our case would be a poor one because <lb/>
+                    we should come into court with the burden of having violated <lb/>
+                    certainly the spirit, if not the letter of the law ourselves.
+                </p>
+                <p>
+                    I am sure you will understand that I am not trying to <lb/>
+                    be an obstruction in the matter. I certainly cannot advise <lb/>
+                    you that <persName>Wells’s</persName> publishing an imported edition is correct from <lb/>
+                    the point of view of copyright, and also certainly he cannot <lb/>
+                    “safeguard” the copyright by following the procedure of <lb/>
+                    deposit and registration. At the same time I quite realize <lb/>
+                    that no question may ever arise, <choice><sic>andI</sic><corr>and I</corr></choice> therefore told you in <lb/>
+                    my cable that we should make no objection if you feel like <lb/>
+                    taking the risk.   
+                </p>
+                <p>
+                    I shall look forward to the corrected proofs, and we <lb/>
+                    shall plan to publish simultaneously with you on <date when="1929-11-01">November first</date> <lb/>
+                    or preferably somewhat earlier if we can both get ready <lb/>
+                    in time.  +  
+                </p>
+                <p>
+                    I have shown the manuscript to <orgName key="Q7719348">the Bookman</orgName><note><p>The Bookman was an American literary journal that was published in New York City from 1895 to 1933. The journal had previously published work from Virginia Woolf.</p></note>, and they <lb/>
+                    have returned it with word that they find themselves unable to <lb/>
+                    use it. Their reason is that they find it impractical to pick <lb/>
+                    out one or two installments and there is no time to print the <lb/>
+                    whole. We shall see whether something can be done in another <lb/>
+                    quarter, though of course there is not much time now.  
+                </p>
+                <closer>
+                    <salute>
+                        With kind regards,
+                    </salute>
+                    <salute>
+                        Yours sincerely,
+                    </salute>
+                    <signed>
+                        Donald Brace.              
+                    </signed>
+                    <address>
+                        <addrLine><orgName key="Q5654997">{Harcourt, Brace and Company, Inc.}</orgName></addrLine>
+                        <addrLine>{Publishers,}</addrLine>
+                        <addrLine>{383 Madison Avenue,}</addrLine>
+                        <addrLine>{New York.}</addrLine>
+                    </address>
+                    <seg type="postscript">
+                        DCB:CMc <lb/>
+                        + Since dictating the above, I have had a talk with <persName>Mr. <lb/>
+                        Wells</persName> over the telephone. He appears now to think less <lb/>
+                        highly of the idea of importing sheets from you and asks <lb/>
+                        whether we might let him print the copies he might require <lb/>
+                        for <placeName>America</placeName> from our type. This privilege I should, of course, <lb/>
+                        be entirely willing to give him, so perhaps the matter will work <lb/>
+                        out in that way to the better satisfaction of everyone concerned. <lb/>
+                    </seg>
+                    <seg type="postscript">
+                        In regard to the date of publication, we should very <lb/>
+                        much prefer the limited edition to come out practically <lb/>
+                        simultaneously with our edition, and <persName>Mr. Wells</persName> says he would <lb/>
+                        prefer it, too. If his edition were to come out, say, 30 days <lb/>
+                        before ours, the book would get reviewed from the limited <lb/>
+                        edition in certain quarters, whereas if they are appearing at <pb/>
+                        about the same time, the reviews will mention both editions. <lb/>
+                        I expect you will agree with this. Immediately upon receipt <lb/>
+                        of the corrected proofs, we shall go ahead with all possible <lb/>
+                        speed, and if <persName>Mr. Wells</persName> has fixed up with you and wants to <lb/>
+                        use our type, we will release it to him as early as we can. 
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
