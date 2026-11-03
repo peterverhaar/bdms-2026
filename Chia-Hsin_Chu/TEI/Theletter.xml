@@ -1,0 +1,190 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q23410919580911">
+    <teiHeader>
+        <fileDesc>
+             <titleStmt>
+                <title>Letter from Barbara Hepworth to Leonard Woolf, 11/09/1958: A
+                    machine-readable transcription</title>
+                <author>
+                    Barbara Hepworth
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Chiahsin,Chu
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Chiahsin,Chu
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Chiahsin,Chu
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+        
+        <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    Q23410919580911
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2026</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from Barbara Hepworth to Leonard Woolf, 11.09.1958
+                    </title>
+                    <author>
+                        Barbara Hepworth
+                    </author>
+                    <idno type="callNo">
+                        SxMs-13/1/Q/3/D
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2026-2027
+                    The Book in the Digital Age: Agents and Medium course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+<text>
+    <front>
+        <div type="summary">
+            <p>
+                A life update of Barbara Hepworth to Leonard Woolf, in which she describes her current work and living situation, as well as her recent exhibition of paintings. She also reminisces about the past and expresses her gratitude for the support she received from Woolf during the war.
+            </p>
+        </div>
+    </front>
+    <body>
+        <div type="letter">
+            <opener>
+                <dateline>
+                    <placeName>
+                        35a Regent&apos;s Park Road N.W.1
+                    </placeName>
+                    <date when="1958-09-11">
+                    </date>
+                </dateline>
+                <adress>
+                    <addrline>
+                        <persName>Leonard Woolf</persName>
+                    </addrline>
+                </adress>
+                <salute>
+                Dear Mr. Woolf,
+                </salute>
+            </opener>
+            <p>
+                I don&apos;t know if you can still be at <placeName key="Q864197">Monk&apos;s House</placeName>,</lb> 
+                but I feel I must write to you to say what a pleasure</lb> 
+                it was to hear your voice again, in the broadcast on</lb> 
+                <placeName key="Q3853488">Mecklenburgh Square</placeName>. I do hope all is going well with you?</lb>
+                I enjoyed the programme very much, it brought up such</lb> 
+                nostalgic pictures of days that now seem a very long time</lb> 
+                ago.</lb>
+                I&apos;m afraid I have rather lost touch with most of my</lb> 
+                friends in the publishing world. Life grows ever more</lb> 
+                busy for me, as for everyone else, or increasingly difficult</lb> 
+                to see people no longer directly in one&apos;s path. I am now</lb> 
+                completely in art teaching, dividing my time between</lb> 
+                physically handicapped children in a London Special</lb> 
+                School and adults in a College at Barnet. I like it</lb> 
+                very much. <persName key="Q6759434">Margaret</persName> is in the same thing, she teaches</lb> 
+                in a secretarial College at Kensington, sending young</lb> 
+                girls out to 16&#45;17 a week jobs &#45; it&apos;s incredible to</lb> 
+                think that twenty years ago we were advertising</lb>
+                posts for juniors at 15/- and getting hundreds of</lb> 
+                applicants! So we both have the long holidays which</lb> 
+                we greatly appreciate which give us the chance of</lb> 
+                some trips of our own.</lb>
+                I had an exhibition of my paintings in a local</lb> 
+                pub. This spring which was successful beyond my</pb>
+                wildest hopes: I had a good press in a modest way,</lb> 
+                and sold 18 pictures, which created quite a sensation</lb> 
+                in the neighbourhood! Do you remember giving me the</lb> 
+                introduction to <persName key="Q766166">Duncan Grant</persName> just after the war when I</lb>
+                had made up my mind to study painting? He suggested</lb> 
+                <orgName key="Q2934669">Camberwell</orgName>, and it was an exceptionally lucky moment</lb> 
+                to go there, when <persName key="Q2841470">Coldstream</persName> &amp; <choice><sic>Passmore</sic><persName key="Q664275"><corr>Pasmore</corr></persName><choice/> &amp; <persName key="Q16008789">Rogers</persName> were</lb> 
+                running the <orgName key="Q5414360">painting school</orgName>. Much later, <persName key="Q1809181">Lawrence Gowing</persName>,</lb>
+                whom I also met there, &amp; <persName key="Q6306768">Julia Strachey</persName> offered me a</lb> 
+                very tempting appointment at <orgName key="Q837164">Kings College, Newcastle</orgName>,</lb>
+                but it was chiefly on the administration side of things</lb> 
+                again, and, after some near-searching, I turned it down.</lb> 
+                I haven't regretted it; I like teaching &amp; I have more</lb> 
+                time for my own work — but it is free lance &amp; precarious,</lb>
+                &amp; I suppose it won't be much longer before I feel</lb>
+                the lack of security &amp; pension at the end that</lb>
+                I've turned away from!</lb>
+                Hearing about Mecklenburgh Square again made me</lb> 
+                wish it were still possible to find somewhere to live in</lb> 
+                <placeName key="Q150120">Bloomsbury</placeName>, some tucked-away square away from</lb> 
+                the traffic &amp; noise. We are among the people who</lb> 
+                are turned out under the rent act in October, with</lb> 
+                a 'bad landlord' who won't negotiate. Having failed</lb> 
+                to find anywhere else to go that we can afford, we</lb> 
+                shall have to outstay our welcome under the new</lb> 
+                amendment: I hope not for too long &amp; that it</lb> 
+                won't be too unpleasant a business.</lb>
+                Margaret sends her best regards to you —</pb>
+                remembers the time when you took us in as</lb> 
+                refugees &amp; made us welcome at <choice><sic>Monks House</sic><corr>Monk&apos;s House</corr></choice> in</lb> 
+                those queer confused days at the beginning of</lb> 
+                the war.
+                </p>
+                <closer>
+                    <salute>
+                        with warm good wishes &amp; remembrances,
+                        yours ever
+                    </salute>
+                        Barbara
+                    <signed/>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+                
