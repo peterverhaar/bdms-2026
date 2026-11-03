@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CKCU_19280124">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from C.K. Cumming to The Hogarth Press, 24 January 1928: a machine readable transcription</title>
+                <author>C.K. Cumming</author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>Martyna J&#x119;drej</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>Martyna J&#x119;drej</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>Martyna J&#x119;drej</name>
+                </respStmt>
+            </titleStmt>
+            <extent>c. 9 kilobytes</extent>
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands</pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>CKCU_19280124</idno>
+                <availability>
+                    <p>Publicly accessible</p>
+                </availability>
+                <date when="2026">2026</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <persName>C.K. Cumming</persName> to <orgName key="Q1623362">The Hogarth Press</orgName>, <date when="1928-01-24">24 January 1928</date>.</title>
+                    <author>C.K. Cumming</author>
+                    <idno type="callNo">SxMs-13/1/Q/3/D, University of Sussex, Special Collections</idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2026-2027 The Book in the Digital Age course, Book and Digital Media Studies, Leiden University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>The letter has been transcribed as found, following the Booktrade Correspondence Project guidelines. Line and page breaks of the source are indicated.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="summary">
+                <p>C.K. Cumming thanks Leonard Woolf for the offer of the post of manager at the
+                    Hogarth Press. He explains that, given the hours, the salary and his wish to
+                    keep the option of leaving at one month's notice, he is in effect declining
+                    it.</p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName><unclear reason="poor image quality" cert="medium">38</unclear>
+                            Torrington Square, <lb/>London, W.C. 1,</placeName> <lb/>
+                        <date when="1928-01-24">January 24, 1928.</date>
+                    </dateline>
+                    <address>
+                        <addrLine><persName key="Q703935">Leonard Woolf, <choice>
+                                    <abbr>Esq.</abbr>
+                                    <expan>Esquire</expan>
+                                </choice></persName>,</addrLine>
+                        <addrLine><orgName key="Q1623362">The Hogarth Press</orgName>,<note>
+                            <p>The Hogarth Press was founded in 1917 by Leonard and Virginia Woolf.</p>
+                        </note></addrLine>
+                        <addrLine>52 Tavistock Square, W.C. 1.</addrLine>
+                    </address>
+                    <seg type="stamp"><unclear reason="faded library stamp" cert="low">University
+                            of Sussex Library</unclear></seg>
+                    <salute>Dear <choice>
+                            <abbr>Mr.</abbr>
+                            <expan>Mister</expan>
+                        </choice> <persName>Woolf</persName>,</salute>
+                </opener>
+                <p>Thank you very much for your letter of the 20th. <lb/>January, offering me the
+                    post of Manager. I am sorry not to have <lb/>replied before, but I have been giving the
+                    question very careful <lb/>consideration.</p>
+                <p>The idea has appealed to me strongly and I felt last <lb/>week that the
+                    fascination and interest of the work would outweigh <lb/>other considerations.
+                    I like many-sided work, have a passion for <lb/>detail, and do not object to a
+                    considerable amount of drudgery. <lb/>But, as I thought about the matter, I
+                    became doubtful, for reasons <lb/>that I would like to explain, if I may.</p>
+                <p>I should feel that I ought to do a considerable <lb/>amount of supplementary
+                    work, if I could get it. Unfortunately, <lb/>the people I wished to consult,
+                    seem to have all removed themselves <lb/>from <placeName>London</placeName> for
+                    the moment, and will not be back until next month. <lb/>That makes an immediate
+                    decision more difficult. But I am rather <lb/>afraid that with the hours what
+                    they are, it would not be possible <lb/>to accomplish the requisite amount in
+                    any event. If the post were <lb/>a part-time one - even two-thirds time, 10 to 4
+                    - it would be a <lb/>different matter.</p>
+                <p>Knowing myself, I am certain I should never settle <lb/>down permanently on a
+                    salary of <unclear reason="overtyped characters" cert="medium">&#xA3;4</unclear>
+                    a week for full time, unless I <lb/>saw great possibilities in the post itself,
+                    which is just what it <lb/>is impossible to say without experiment. If I
+                    undertook the work <lb/>on the proposed terms, the arrangement would, in my
+                    mind, be frankly <lb/>experimental. There is this further point. I have a
+                    number of <lb/>friends in book publishing circles and I have thrown out various
+                    <lb/>lines, from which it is possible, though <emph rend="underlined"
+                        >not</emph> probable, that some <lb/>offer might result. If, during the
+                    first few months, a better post <lb/>should unexpectedly be offered me, I
+                    should,in all likelihood, want <lb/>to accept, for I could not afford to do
+                    otherwise. I should wish <lb/>to have the option of leaving at one month's
+                    notice (which is, in my <lb/>view,the usual and most satisfactory period), if I
+                    so desired.</p>
+                <p>What I have said is, I know, tantamount to declining <lb/>the post, for you
+                    naturally would wish to make arrangements practi-<lb/>cally certain to be
+                    permanent. I feel sure that you will appreciate <pb n="2"/>my point of view and
+                    the fact that I have tried to be perfectly <lb/>candid. I felt that to accept
+                    the post with any idea in my mind <lb/>that, for the reasons indicated above, I
+                    might not wish to remain <lb/>permanently, would not be fair to you. I am very
+                    sorry indeed <lb/>for any delay or waste of time that I may have caused you and
+                    <lb/>I want to thank you for so kindly offering me the work, which would,
+                    <lb/>in itself, be highly congenial in every way.</p>
+                <closer>
+                    <salute>Yours sincerely</salute>
+                    <signed>C. K. Cumming</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

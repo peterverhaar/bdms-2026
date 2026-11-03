@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q3666843_19520604">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Chatto &amp; Windus to The Grove Press, 4 June 1952: a machine readable transcription</title>
+                <author>Chatto &amp; Windus</author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>Martyna J&#x119;drej</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>Martyna J&#x119;drej</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>Martyna J&#x119;drej</name>
+                </respStmt>
+            </titleStmt>
+            <extent>c. 8 kilobytes</extent>
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands</pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>Q3666843_19520604</idno>
+                <availability>
+                    <p>Publicly accessible</p>
+                </availability>
+                <date when="2026">2026</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <orgName key="Q3666843">Chatto &amp; Windus</orgName> to <orgName key="MAPP0038">The Grove Press</orgName>, <date when="1952-06-04">4 June 1952</date>.</title>
+                    <author>Chatto &amp; Windus</author>
+                    <idno type="callNo">MS 2750/348_Sado, University of Reading, Special Collections</idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2026-2027 The Book in the Digital Age course, Book and Digital Media Studies, Leiden University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>The letter has been transcribed as found, following the Booktrade Correspondence Project guidelines. Line breaks of the source are indicated.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="summary">
+                <p>Chatto &amp; Windus replies to Barney Rosset of the Grove Press about the Zodiac
+                    Books and about handling <title>SADO</title> in the United States, and discusses
+                    sample copies, the Stendhal and Proust editions held by American publishers, and
+                    the Hayward anthologies.</p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <add place="above" type="handwriting">MS 2750/348/52</add>
+                    <seg type="reference">PR/MS</seg> <note><p>Reference initials; the archival record names Piers Raymond of Chatto &amp; Windus as the author of the letter.</p></note>
+                    <dateline>
+                        <date when="1952-06-04">4th June, 1952.</date>
+                    </dateline>
+                    <address>
+                        <addrLine><persName key="MAPP0039">Barney Rosset, <choice>
+                                    <abbr>Esq.</abbr>
+                                    <expan>Esquire</expan>
+                                </choice></persName>,</addrLine>
+                        <addrLine><orgName key="MAPP0038">The Grove Press</orgName>,</addrLine>
+                        <addrLine>59 West 9th Street,</addrLine>
+                        <addrLine><placeName>New York City</placeName> 11,</addrLine>
+                        <addrLine>N.Y., U.S.A.</addrLine>
+                    </address>
+                    <salute>Dear <choice>
+                            <abbr>Mr.</abbr>
+                            <expan>Mister</expan>
+                        </choice> <persName>Rosset</persName>,</salute>
+                </opener>
+                <p>Thank you for your letters of the 27th and 28th May. I was very interested <lb/>in
+                    your reflections on the <title>Zodiac Books</title><note><p>Probably the Zodiac Press series of classics begun by Chatto &amp; Windus in 1946 and sold in the United States by Grove Press from 1952. The earlier, smaller Zodiac Books gift series (1937&#x2013;1951) is a different series with a similar name.</p></note>. We ourselves have always
+                    found that <lb/>the <persName key="Q318399">Trollope</persName> titles proved the most popular largely because our
+                    market, as yours, <lb/>is fairly well saturated with <persName key="Q36322">Jane Austen</persName>. I was very
+                    interested too in your <lb/>advertising piece.</p>
+                <p>With regard to your second letter, there seems to be no objection to handling
+                    <lb/><title>SADO</title> <note><p>A Chatto &amp; Windus title that Grove Press wished to import into the United States; the related correspondence is filed under MS 2750/348_Sado.</p></note> in the States. I am not quite clear whether you would
+                    like to import bound <lb/>copies or our actual edition. We have plenty of sheets
+                    of this title and could <lb/>let you have what you required, but perhaps you
+                    could let me know whether you <lb/>would like our edition bound, flat sheets, or
+                    a special edition for yourselves <lb/>with your own print on them.</p>
+                <p>The <persName key="Q502">Stendhal</persName> <note><p>Pen name of the French novelist Marie-Henri Beyle (1783&#x2013;1842).</p></note> and the <persName key="Q7199">Proust</persName> <note><p>The French novelist Marcel Proust (1871&#x2013;1922).</p></note> are, I am afraid, in the hands of American
+                    <lb/>publishers and we know before we start that it would be hopeless to get
+                    permission <lb/>to import our editions. The <persName key="Q6228864">Hayward</persName> anthologies <note><p>Probably John Davy Hayward (1905&#x2013;1965), English literary critic and editor of anthologies.</p></note> are however
+                    available to the <lb/>States and the same remarks apply to these as to
+                        <title>SADO</title>. I am sending sample copies <lb/>of all three. If you
+                    would let me know the form in which you would like them, I <lb/>can <choice>
+                        <sic>them</sic>
+                        <corr>then</corr>
+                    </choice> quote you a price.</p>
+                <p>I am sending you two complete sets of <persName>Proust</persName> and the handbooks although we
+                    <lb/>are not supposed to send these books to American, but as I presume they
+                    are for <lb/>your personal use, I do not think the American publishers will
+                    mind.</p>
+                <closer>
+                    <salute>Yours sincerely,</salute>
+                    <signed>
+                        <supplied reason="no signature or sender's name on the source; sender taken from the archive description" cert="high">Chatto &amp; Windus</supplied>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
