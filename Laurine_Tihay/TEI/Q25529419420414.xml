@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q25529419420414">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Vanessa Bell to John Lehmann, 14 April 1942: A
+                    machine-readable transcription</title>
+                <author>
+                    <persName key="Q255294">Vanessa Bell</persName>
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version:</resp>
+                    <name>
+                        Laurine Tihay
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup:</resp>
+                    <name>
+                        Laurine Tihay
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations:</resp>
+                    <name>
+                        Laurine Tihay
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                6 kBytes
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands</pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    Q25529419420414
+                </idno>
+                <availability>
+                    <p>Publicly accessible</p>
+                </availability>
+                <date>2026</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <persName type="sender" key="Q255294">Vanessa Bell</persName> to <persName type="recipient" key="Q1563198">John Lehmann</persName>, <date when="1942-04-14">14 April 1942</date>
+                    </title>
+                    <author>
+                        <persName key="Q255294">Vanessa Bell</persName>
+                    </author>
+                    <idno type="callNo">
+                        MS 2750/555/1/1
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2026-2027
+                    The Book in the Digital Age course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Vanessa Bell, at the request of Leonard Woolf, asks that formal corrections be made to the book layout of a collection of texts by Virginia Woolf, The Death of the Moth and Other Essays, specifically regarding the layout of the dustjacket.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <date when="1942-04-14">
+                            <choice>
+                                <abbr>Ap.</abbr>
+                                <expan>April</expan>
+                            </choice> 14
+                        </date>
+                    </dateline>
+                    <salute>
+                        Dear John
+                    </salute>
+                </opener>
+                <p>
+                    Leonard <note><p>Vanessa Bell refers here to <persName key="Q703935">Leonard Woolf</persName>, <persName key="Q40909">Virginia Woolf</persName>'s husband.</p></note> asks me to return this directly <lb/>
+                    to you &amp; to tell you that it must <lb/>
+                    be <title>THE death of the Moth</title> <note><p>The Death of the Moth, and Other Essays is a collection of essays written by Virginia Woolf, published posthumously in 1942, one year after its author's suicide.</p></note>. Also <lb/>
+                    that &quot;and other essays&quot; must be deleted. <lb/>
+                    I prefer A to B. &quot;Death of the Moth&quot; <lb/>
+                    must be lower, the bottom line of the <lb/>
+                    letters to come where the smaller letters <lb/>
+                    now come &amp; THE must be put in <lb/>
+                    the centre above in the smaller type<supplied>.</supplied> <lb/>
+                    Also the name at the bottom I think <lb/>
+                    should be a tiny bit lower, so as to be <lb/>
+                    more on a level with the drawing. I <lb/>
+                    have marked the place in pencil. <lb/>
+                    I think it should be in the blackest <lb/>
+                    ink on the whitest paper possible.
+                </p>
+                <closer>
+                    <signed>Your Vanessa</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

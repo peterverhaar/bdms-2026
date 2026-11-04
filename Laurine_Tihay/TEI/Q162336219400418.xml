@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q162336219400418">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letters from The Hogarth Press to Gordon A. Baxter, 18 April 1940 - 30 April 1940: A
+                    machine-readable transcription</title>
+                <author>
+                    <orgName key="Q1623362">The Hogarth Press</orgName>
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version:</resp>
+                    <name>
+                        Laurine Tihay
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup:</resp>
+                    <name>
+                        Laurine Tihay
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations:</resp>
+                    <name>
+                        Laurine Tihay
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                8 kBytes
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands</pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    Q162336219400418
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2026</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letters from <orgName type="sender" key="Q1623362">The Hogarth Press</orgName> to <persName type="recipient" key="MAPP0082">Gordon A. Baxter</persName>, <date when="1940-04-18">18 April 1940</date> and <date when="1940-04-30">30 April 1940</date>
+                    </title>
+                    <author>
+                        <orgName key="Q1623362">The Hogarth Press</orgName>
+                    </author>
+                    <idno type="callNo">
+                        MS 2750/552/48
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2026-2027
+                    The Book in the Digital Age course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    The Hogarth Press replies to prior letters sent by Gordon A. Baxter. They grant permission for the use of an extract from The Common Reader, offering a reduced fee of one and a half guineas. At the back of this first reply, there is also a reply, dated 30 April 1940, where they finally agree to the use of a reduced passage for a fee of one guinea.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <date when="1940-04-18">
+                            18th April, 1940.
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <persName key="MAPP0082">G.A. Baxter, <choice><abbr>Esq.</abbr><expan>Esquire</expan></choice></persName>,,
+                        </addrLine>
+                        <addrLine>Abbey Street,</addrLine>
+                        <addrLine><placeName>Melrose,</placeName></addrLine>
+                        <addrLine>Roxburgshire.</addrLine>
+                    </address>
+                    <salute>
+                        Dear Sir,
+                    </salute>
+                </opener>
+                <p>
+                    Woolf – <title>
+                        <choice><orig>Common Reader</orig>
+                            <reg>The Common Reader</reg></choice>, First Series
+                            </title>
+                        <note><p>The Common Reader is a collection of essays by Virginia Woolf, exploring the value of reading for pleasure for the common readers. The first of the two series was published in 1925.</p></note>
+                </p>
+                <p>
+                    In reply to your letter of April 9th, we shall be glad to give you <lb/>
+                    permission to use the passage you quote, i.e. from &quot;Admitting the vagueness&quot; <lb/>
+                    down to &quot;than custom would have us believe it,&quot; from the above book, on pay-<lb/>
+                    ment of a fee of one and a half guiness. Our minimum fee for extracts from <lb/>
+                    Mrs. Woolf<note><p>The author refers here to <persName key="Q40909">Virginia Woolf</persName></p></note>'s works is usually a guinea a page so we hope that the reduced fee <lb/>
+                    will be satisfactory to you. We take it the usual acknowledgements will be <lb/>
+                    made.
+                </p>
+                <closer>
+                    <salute>
+                        Yours faithfully,
+                    </salute>
+                    <signed>
+                        THE HOGARTH PRESS
+                    </signed>
+                    <seg type="position">
+                        Manager.
+                    </seg>
+                </closer>
+            </div>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <date when="1940-04-30">
+                            30th April, 1940.
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <persName>G.A. Baxter, <choice><abbr>Esq.</abbr><expan>Esquire</expan></choice></persName>,
+                        </addrLine>
+                        <addrLine>Abbey Street,</addrLine>
+                        <addrLine><placeName>Melrose,</placeName></addrLine>
+                        <addrLine>Roxburgshire.</addrLine>
+                    </address>
+                    <salute>
+                        Dear Sir,
+                    </salute>
+                </opener>
+                <p>Woolf – <title>The Common Reader, 1st  Series</title></p>
+                <p>
+                    Thank you for your letter of April 24th. We shall be glad <lb/>
+                    to give you permission to use the reduced passage from the above book <lb/>
+                    for a fee of one guinea.
+                </p>
+                <closer>
+                    <salute>
+                        Yours faithfully,
+                    </salute>
+                    <signed>
+                        THE HOGARTH PRESS
+                    </signed>
+                    <seg type="position">
+                        Manager.
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
