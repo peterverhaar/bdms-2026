@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q529405419290712">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName type="sender" key="Q5294054">Donald Brace</persName> to <persName type="recipient" key="Q40909">Virginia Woolf</persName>, <date>12 July 1929</date>: A
+                    machine-readable transcription</title>
+                <author>
+                    <persName type="sender" key="Q5294054">Donald Brace</persName>
+                </author>
+                <principal>Prof. dr. Peter Verhaar</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <persName>Noah Veeningen</persName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <persName>Noah Veeningen</persName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <persName>Noah Veeningen</persName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                8.90 KB
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    Q529405419290712
+                </idno>
+                <availability>
+                    <p>Publicly accessible</p>
+                </availability>
+                <date> 2026 </date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <persName type="sender" key="Q5294054"> Donald Brace </persName> to <persName type="recipient" key="Q40909"> Virginia Woolf </persName>, <date> 12 July 1929 </date>
+                    </title>
+                    <author>
+                        <persName type="sender" key="Q5294054"> Donald Brace </persName>
+                    </author>
+                    <idno type="callNo">
+                        212-930-0803
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2026-2027
+                    <title>Book in the Digital Age: Agents and Medium</title> course, <title>Book and Digital Media Studies</title>, <orgname key="Q156598">Leiden
+                    University</orgname></p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    <persName type="sender" key="Q5294054">Donald Brace</persName> informs <persName type="recipient" key="Q40909">Virginia Woolf</persName> that the <orgname key="Q83521071">Company</orgname> has delivered the manuscript for <title>A Room of One's Own</title> to <orgname key="Q7719348">The Bookman</orgname> and that the latter has requested the manuscript. <persName type="sender" key="Q5294054"> He </persName> also provides information on cooperating with <persName> James R. Wells' </persName> offer for a limited edition and expresses concern that he is not familiar with the new heads of the <orgname key="Q138379620"> Fountain Press </orgname>.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            New York
+                        </placeName>
+                        <date when="YYYY-MM-DD">
+                            1929-07-12
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+							<persName>Virginia Woolf</persName>
+                        </addrLine>
+                        <addrLine>52 Tavistock Square.</addrLine>
+						<addrLine>London, W.C.L.</addrLine>
+                    </address>
+                    <salute>
+                        Dear <persName type="recipient" key="Q40909">Mrs. Woolf</persName>:
+                    </salute>
+                </opener>
+                <p>
+                    Thank you for your letter of <date>June 30th</date> enclosing the signed copy of the agreement for a <title>ROOM OF ONE'S OWN</title>. I am quite willing to have you retain the Canadian rights if you wish.
+
+	In regard to serialization, I had been doing nothing because I thought it was your wish to abandon the idea. In <persName key="Q703935">Mr. Woolf's</persName> letter of <date>May 16th</date>, he said: "We will not trouble about serialization, but go straight ahead with publication in book form." And besides, the manuscript has been in <persName>Mr. Wells's</persName> hands. I got the manuscript back from him yesterday, and have delivered it to <orgname key="Q7719348">The Bookman</orgname>. I am sorry if I have misinterpreted your wishes, but no doubt there is still time as far as <orgname key="Q7719348">The Bookman</orgname> is concerned.
+
+	Meanwhile, just after I received your letter, <persName key="Q5195696">Curtis Brown's</persName> office telephoned to ask if they could get the manuscript, saying they had a message from you to get in touch with us about it. I believe <orgname key="Q7719348">The Bookman</orgname> had already been asking <persName key="Q5195696">Curtis Brown</persName>. If I get further inquiries from <persName key="Q5195696">Curtis Brown</persName>, I shall tell them that we are dealing with the matter by your instructions. Of course, if it appears that the business ought to go through <persName key="Q5195696">Curtis Brown</persName> and they ought to have a commission, we should be glad to stand aside as far as any commission is concerned and continue to do what we can to dispose of the rights.
+
+	<persName>Mr. Wells</persName> tells me that he has made you an offer in respect to a limited edition. If there is to be a limited edition, we shall gladly co-operate with <persName>Mr. Wells</persName> and with you in regard to arranging dates of publication and protection of the copyright. I hope it may be possible for you to send soon finally corrected proofs, especially if there is to be a limited edition. If you could arrange to send duplicate final proofs so that <persName>Mr. Wells</persName> could have one set and we could have the other, matters would be greatly expedited.
+
+	There is one thing about the limited edition matter which I think I ought to mention, though I do so with some hesitation. When I recommended the publication of a limited edition of ORLANDO by <persName key="Q52156408">Mr. Gaige</persName>, my recommendation was based on long knowledge of him and complete certainty of his reliability. As for his successors, I have not the same knowledge or the same certainty, and I should have hesitated to make a similar.
+	
+	Of course, you are dealing with <persName>Messrs. Wells</persName> and <persName>Adams</persName> direct, and it is probably all right for you to take whatever risk is involved. It is simply that I really know next to nothing about them, and that in succeeding <persName key="Q52156408">Mr. Gaige</persName>, they do not succeed to the complete confidence I have in him. Please don't take this any more seriously than it is intended.
+                </p>
+                <closer>
+                    <salute>
+                        With kindest regards to yourself and <persName key="Q703935">Mr. Woolf</persName>,
+						Yours sincerely,
+                    </salute>
+                    <signed/>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
