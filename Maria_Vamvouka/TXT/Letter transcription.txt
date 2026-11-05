@@ -30,7 +30,7 @@
                 </respStmt>
             </titleStmt>
             <extent>
-                <!-- file size in kBytes -->
+                file size in kBytes
             </extent>
 
 
@@ -59,7 +59,7 @@
                         <persName key="Q703935">Leonard Woolf</persName>
                     </author>
                     <idno type="callNo">
-                        <!-- library callnumber -->
+                        library callnumber
                     </idno>
                 </bibl>
             </sourceDesc>
@@ -98,7 +98,7 @@
         <front>
             <div type="summary">
                 <p>
-                    <!-- summary of contents -->
+                    A letter from <persName key="Q703935">Leonard Woolf</persName> to <persName key="Q1563198">John Lehmann</persName> on a series of miscommunications concerning the printing of various publications.
                 </p>
             </div>
         </front>
@@ -178,3 +178,4 @@ the <orgName key="Q2258000">Assizes</orgName> in <placeName>Lewes</placeName> an
         </body>
     </text>
 </TEI>
+
