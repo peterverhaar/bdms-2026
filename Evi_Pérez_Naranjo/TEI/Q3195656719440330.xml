@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q3195656719440330">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Curtis Brown LTD to Leonard Woolf, March 30th 1944: A
+                    machine-readable transcription</title>
+                <author>
+                    Curtis Brown LTD
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Evi P&#xE9;rez Naranjo
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Evi P&#xE9;rez Naranjo
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Evi P&#xE9;rez Naranjo
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                9kB
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    Q3195656719440330
+                </idno>
+                <availability>
+                    <p>Publicly accessible</p>
+                </availability>
+                <date>2026</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <persName key="Q31956567">Norah C. James</persName> to <persName key="Q703935">Leonard <choice><sic>Wolfe</sic><corr>Woolf</corr></choice></persName>, March 30th 1944</title>
+                    <author>
+                        <persName key="Q31956567">Norah C. James</persName>
+                    </author>
+                    <idno type="callNo">
+                        MS 2750/2/1/42
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2026-2027
+                    The Book in the Digital Age: Agents and Medium course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    <persName key="Q31956567">Norah C. James</persName> forwards letter from <persName key="Q4695257">Mr. Ahmed Ali</persName> concerning Indian edition  
+                    of <title>Twilight in Delhi</title> to <persName key="Q703935">Leonard Woolf</persName>, asking for his permission to publish it. The typescript 
+                    letter is signed by <persName key="Q31956567">James</persName>. The letter contains a handwritten note by <persName key="Q703935">Woolf</persName> to 
+                    <persName key="Q1563198">John Lehmann</persName> about the possibility of publishing the Indian edition.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            6, Henrietta Street, Covent Garden, <placeName>London</placeName>, W.C.2
+                        </placeName>
+                        <date when="1944-03-30">
+                            30 March 1944
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <persName key="Q703935">Leonard <choice><sic>Wolfe</sic><corr>Woolf</corr></choice></persName> 
+                        </addrLine>
+                        <addrLine>
+                            Messrs <orgName key="Q1623362">Hogarth Press</orgName>
+                        </addrLine>
+                        <addrLine>
+                            Pixmore Avenue <choice><sic>LETCHWORT H</sic><corr>LETCHWORTH</corr></choice> Herts
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear <persName key="Q703935">Mr. <choice><sic>Wolfe</sic><corr>Woolf</corr></choice></persName>,
+                    </salute>
+                </opener>
+                <p>
+                    <add place="Letchworth" type="handwriting">
+                        <persName key="Q1563198">J.L.</persName>
+                        I presume we haven’t the paper for this?
+                        If that is so, I think we must get permission
+                        <persName key="Q703935">LW</persName>
+                    </add>
+                </p>
+                <p>
+                    <persName key="Q18936256">Mrs. Spencer Curtis Brown</persName> is away from the office at </lb>the moment 
+                    so I am writing to you in her absence. We <lb/>have received an airmail from <persName key="Q4695257">Mr. Ahmed Ali</persName> 
+                    in which he <lb/>says: <pb/>“Now that <title>TWILIGHT IN DELHI</title> has been included in <lb/>the list of books 
+                    recommended to the British soldiers <lb/>it should do very well indeed. This list, I find <lb/>will be distributed 
+                    to all the British soldiers <lb/>in this country (<placeName>India</placeName>) or coming to it, and will <lb/>
+                    become operative in another couple of months. A <lb/>cheap edition therefore will be so much better and <lb/>
+                    an Indian edition, because easily available in this <lb/>country will be better still. I also discovered <lb/>
+                    that the novel won good points in a competition held <lb/>by two papers - the <title>Illustrated Weekly of India</title> 
+                    and <lb/>the <title>B<del>i</del><add>o</add>mbay Chronicle</title>. It was within the first twenty <lb/>books on <placeName>India</placeName> - which 
+                    included the classics and <lb/>philosophies and other books in a Best Books com<lb/>petition on <placeName>India</placeName> run by 
+                    <persName key="Q80900">Pearl Buck</persName>. <title>TWILIGHT</title> was <lb/>within the first ten books. 
+                    Two Indian publishers <lb/>have been asking me to give them permission to bring <lb/>out an edition immediately, 
+                    of 3000 copies.” <pb/>He is most anxious to have your permission for this <lb/>Indian edition to be brought 
+                    out and I wonder, if, in the <lb/>circumstances, you would be willing to give your consent.
+                </p>
+                <closer>
+                    <salute>
+                        Yours very truly,
+                    </salute>
+                    <signed>
+                    <seg>
+                        <persName key="Q31956567">Norah C. James</persName> (In the absence of <persName key="Q18936256">Mrs. <del>v</del><add>C</add>urtis Brown</persName>)
+                    </seg>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
