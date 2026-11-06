@@ -30,7 +30,7 @@
                 </respStmt>
             </titleStmt>
             <extent>
-                <!-- file size in kBytes -->
+                <measure unit="kBytes" quantity="7">7 kBytes</measure>
             </extent>
 
 
@@ -66,7 +66,7 @@
         </fileDesc>
         <encodingDesc>
             <projectDesc>
-                <p>Prepared by students of the 2026-2027 Digital Media couse course, Book and Digital Media Studies, Leiden
+                <p>Prepared by students of the 2026-2027 Digital Media course, Book and Digital Media Studies, Leiden
                     University</p>
             </projectDesc>
             <editorialDecl>
@@ -97,7 +97,7 @@
         <front>
             <div type="summary">
                 <p>
-                    Barbara Hepworth writes regarding a review of Three Guineas from the Times Literary Supplement and brings attention to the book.
+                    Barbara Hepworth writes regarding a review of Three Guineas from the Times Literary Supplement in an attempt to bring more attention to the book by emphasizing its critical value in its exploration of feminism.
                 </p>
             </div>
         </front>
@@ -115,7 +115,7 @@
 							<persName>Dr. Violet Kelynack</persName>
 						</addrLine>
                         <addrLine>
-                            <orgName>Medicinal Women's Federation</orgName>
+                            <orgName><choice><sic>Medcial Women's Federation</sic><corr>Medicinal Women's Federation</corr></choice></orgName>
                         </addrLine>
                         <addrLine>
 							9, Clifford Street
@@ -126,7 +126,7 @@
                    	 </address>
 					 
                     <salute>
-                        Dear Madam
+                        Dear Madam,
                     </salute>
                 </opener>
 				
@@ -142,7 +142,7 @@
 				<lb/>Woolf</persName> concerns herself with the present status of women, 
 				<lb/>and with the urgent question <emph rend="underlined">What can a Woman do to Prevent
 				<lb/>War?</emph> Like <title>A ROOM OF ONE'S OWN</title>, <title>Three Guineas</title> is essential 
-				<lb/>reading for any <choice><sic>women</sic><corr>woman</corr></choice>with an interest in present day affairs, 
+				<lb/>reading for any <choice><sic>women</sic><corr>woman</corr></choice> with an interest in present day affairs, 
 				<lb/>and who has not?
 				</p>
 				
@@ -158,21 +158,21 @@
 				<p>
 				The book was the subject of a leader in a recent
 				<lb/>issue of the <orgName type="Q50008">The Times Literary Supplement</orgName><note><p>The Times Literary Supplement is a renowed British literary and cultural review, founded in 1902</p></note>, in which <persName>Mrs. Woolf</persName> was 
-				<lb/>escribed as the most brilliant pamphleteer in <placeName>England</placeName>, and it was
+				<lb/>described as the most brilliant pamphleteer in <placeName>England</placeName>, and it was
 				<lb/>furthermore suggested that "this brilliant and searching pamphlet
 				<lb/>might mark an epoch in the world's history." Let us hope that 
 				<lb/>this may be so!
                 </p>
 				
-           <closer>
+                <closer>
                     <salute>
-                        Yours very truly
+                        Yours very truly,
                     </salute>
 					<signed>Manager</signed>
 					<add place="right"><signed>BH.</signed></add>
                 </closer>
+				
             </div>
         </body>
     </text>
 </TEI>
-
