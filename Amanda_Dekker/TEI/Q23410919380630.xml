@@ -165,7 +165,7 @@
 				<p>
 				The book was the subject of a leader in a recent
 				<lb/>issue of the <orgName type="Q50008">The Times Literary Supplement</orgName><note><p>The Times Literary Supplement is a renowed British literary and cultural review, founded in 1902</p></note>, in which <persName>Mrs. Woolf</persName> was 
-				<lb/>escribed as the most brilliant pamphleteer in England, and it was
+				<lb/>escribed as the most brilliant pamphleteer in <placeName>England</placeName>, and it was
 				<lb/>furthermore suggested that "this brilliant and searching pamphlet
 				<lb/>might mark an epoch in the world's history." Let us hope that 
 				<lb/>this may be so!
@@ -175,7 +175,7 @@
                     <salute>
                         Yours very truly
                     </salute>
-					<positionName>Manager</position>
+					<signed>Manager</signed>
 					<add place="right"><signed>BH.</signed></add>
                 </closer>
             </div>
