@@ -53,7 +53,7 @@
 
             <sourceDesc>
                 <bibl>
-                    <title>Letter from <persName type="sender" key="Q5294054">Donald Brace</persName> to <persName type="recipient" key="Q703935">Leonard Woolf</persName>, <date when="1929-08-01">1 August 1929</date>
+                    <title>Letter from <persName type="sender" key="Q5294054">Donald Brace</persName> to <persName type="recipient" key="Q703935">Leonard Woolf</persName>, <date when="1929-08-01">1 August 1929</date>.
                     </title>
                     <author>
                         Donald Brace
@@ -108,7 +108,7 @@
                 <opener>
                     <dateline>
                         <placeName>
-                            London
+                            New York
                         </placeName>
                         <date when="1929-08-01">
                             August 1, 1929.
@@ -117,32 +117,32 @@
                     <address>
                         <addrLine>
                             <persName>
-                                Leonard Woolf
+                                Leonard Woolf, <choice><abbr>Esq.</abbr><expan>Esquire</expan></choice>
                             </persName>
                         </addrLine>
                         <addrLine>52 Tavistock Square</addrLine>
                         <addrLine>London, W.C.1.</addrLine>
                     </address>
                     <salute>
-                        Dear Mr. Woolf:
+                        Dear <choice><abbr>Mr.</abbr><expan>Mister</expan></choice> Woolf:
                     </salute>
                 </opener>
                 <p>
                     I have just received your letter of <date when="1929-07-23">July 23rd</date> on <lb/>
-                    the subject of the limited edition of <persName key="Q40909">Mrs. Woolf’s</persName> <title>A ROOM <lb/>
-                    OF ONE’S OWN </title><note><p>A Room of One's Own is an extended essay written by Virginia Woolf. The title was published by Hogarth Press in England and Harcourt, Brace and Company in America in 1929. The essay is divided into six chapters and based on two lectures Virginia Woolf gave at Newnham College and Girton College.</p></note>. I hope my cable in reply to yours explained <lb/>
+                    the subject of the limited edition of <persName key="Q40909"><choice><abbr>Mrs.</abbr><expan>Missus</expan></choice> Woolf’s</persName> <title>A ROOM <lb/>
+                    OF ONE'S OWN </title><note><p>A Room of One's Own is an extended essay written by Virginia Woolf. The title was published by Hogarth Press in England and Harcourt, Brace and Company in America in 1929. The essay is divided into six chapters and based on two lectures Virginia Woolf gave at Newnham College and Girton College.</p></note>. I hope my cable in reply to yours explained <lb/>
                     my view of the copyright question with reasonable clearness. <lb/>
-                    When I gave the manuscript to <persName key="MAPP0013">Mr. Wells</persName>, I explained that we <lb/>
+                    When I gave the manuscript to <persName key="MAPP0013"><choice><abbr>Mr.</abbr><expan>Mister</expan></choice> Wells</persName>, I explained that we <lb/>
                     did not agree with his view of the copyright matter and that <lb/>
                     we were making a condition that the book should be printed <lb/>
-                    in this country. We had some discussion of the matter <lb/>
-                    at that time, and the next I heard about it was your cable. When <lb/>
-                    <persName>Mr. Wells</persName> says that he can safeguard the copyright by depositing <lb/>
-                    two copies in Washington, he is, it seems to me, rather <lb/>
+                    in this country. We had some discussion of the matter at <lb/>
+                    that time, and the next I heard about it was your cable. When <lb/>
+                    <persName><choice><abbr>Mr.</abbr><expan>Mister</expan></choice> Wells</persName> says that he can safeguard the copyright by depositing <lb/>
+                    two copies in <placeName>Washington</placeName>, he is, it seems to me, rather <lb/>
                     curiously evading the point. It is, of course, true that we <lb/>
                     can obtain ad interim copyright for a book by a foreign author <lb/>
                     in the English language. This is a procedure we have followed <lb/>
-                    with all of <persName>Mrs. Woolf’s</persName> books and which we regularly follow <lb/>
+                    with all of <persName><choice><abbr>Mrs.</abbr><expan>Missus</expan></choice> Woolf’s</persName> books and which we regularly follow <lb/>
                     with all books by English authors unless it turns out that we <lb/>
                     are publishing simultaneously. But going through this formality <lb/>
                     or going through any of the formalities of copyright doesn’t mean <lb/>
@@ -158,12 +158,13 @@
                     of more importance to you than to us, at any rate of equal <lb/>
                     importance to you. Just how important it may be, one never <lb/>
                     knows. It is probably less important in the case of a book <lb/>
-                    like <title>A ROOM OF ONE’S OWN</title> than it would be in the case of a novel <lb/>
+                    like <title>A ROOM OF ONE'S OWN</title> than it would be in the case of a novel <lb/>
                     where dramatic and picture rights might be involved as well as <lb/>
                     book rights. The life of copyright under our law is 56 years, <lb/>
                     and it is, of course, impossible to tell how important the <lb/>
                     matter may turn out to be during that period. We can go <lb/>
-                    through the formalities of making copyright registration after <pb/>
+                    through the formalities of making copyright registration after <lb/>
+                    over/ <pb/>
                     the publication of an imported edition, and if no one ever <lb/>
                     infringes no question will ever arise, but if there should <lb/>
                     be an infringement I think our case would be a poor one because <lb/>
@@ -202,9 +203,7 @@
                     <salute>
                         Yours sincerely,
                     </salute>
-                    <signed>
-                        Donald Brace.              
-                    </signed>
+                    <signed>Donald Brace</signed>.
                     <address>
                         <addrLine><orgName key="Q5654997">{Harcourt, Brace and Company, Inc.}</orgName></addrLine>
                         <addrLine>{Publishers,}</addrLine>
@@ -213,25 +212,26 @@
                     </address>
                     <seg type="postscript">
                         DCB:CMc <lb/>
-                        + Since dictating the above, I have had a talk with <persName>Mr. <lb/>
+                        + Since dictating the above, I have had a talk with <persName><choice><abbr>Mr.</abbr><expan>Mister</expan></choice> <lb/>
                         Wells</persName> over the telephone. He appears now to think less <lb/>
                         highly of the idea of importing sheets from you and asks <lb/>
                         whether we might let him print the copies he might require <lb/>
                         for <placeName>America</placeName> from our type. This privilege I should, of course, <lb/>
                         be entirely willing to give him, so perhaps the matter will work <lb/>
-                        out in that way to the better satisfaction of everyone concerned. <lb/>
+                        out in that way to the better satisfaction of everyone concerned. 
                     </seg>
                     <seg type="postscript">
                         In regard to the date of publication, we should very <lb/>
                         much prefer the limited edition to come out practically <lb/>
-                        simultaneously with our edition, and <persName>Mr. Wells</persName> says he would <lb/>
+                        simultaneously with our edition, and <persName><choice><abbr>Mr.</abbr><expan>Mister</expan></choice> Wells</persName> says he would <lb/>
                         prefer it, too. If his edition were to come out, say, 30 days <lb/>
                         before ours, the book would get reviewed from the limited <lb/>
-                        edition in certain quarters, whereas if they are appearing at <pb/>
+                        edition in certain quarters, whereas if they are appearing at <lb/>
+                        over/<pb/>
                         about the same time, the reviews will mention both editions. <lb/>
                         I expect you will agree with this. Immediately upon receipt <lb/>
                         of the corrected proofs, we shall go ahead with all possible <lb/>
-                        speed, and if <persName>Mr. Wells</persName> has fixed up with you and wants to <lb/>
+                        speed, and if <persName><choice><abbr>Mr.</abbr><expan>Mister</expan></choice> Wells</persName> has fixed up with you and wants to <lb/>
                         use our type, we will release it to him as early as we can. 
                     </seg>
                 </closer>
