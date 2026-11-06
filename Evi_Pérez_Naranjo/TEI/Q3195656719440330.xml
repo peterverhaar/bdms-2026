@@ -109,7 +109,7 @@
                 <opener>
                     <dateline>
                         <placeName>
-                            6, Henrietta Street, Covent Garden, <placeName>London</placeName>, W.C.2
+                            6, Henrietta Street, Covent Garden, London, W.C.2
                         </placeName>
                         <date when="1944-03-30">
                             30 March 1944
@@ -131,7 +131,7 @@
                     </salute>
                 </opener>
                 <p>
-                    <add place="Letchworth" type="handwriting">
+                    <add place="above" type="handwriting">
                         <persName key="Q1563198">J.L.</persName>
                         I presume we haven’t the paper for this?
                         If that is so, I think we must get permission
@@ -139,7 +139,7 @@
                     </add>
                 </p>
                 <p>
-                    <persName key="Q18936256">Mrs. Spencer Curtis Brown</persName> is away from the office at </lb>the moment 
+                    <persName key="Q18936256">Mrs. Spencer Curtis Brown</persName> is away from the office at <lb/>the moment 
                     so I am writing to you in her absence. We <lb/>have received an airmail from <persName key="Q4695257">Mr. Ahmed Ali</persName> 
                     in which he <lb/>says: <pb/>“Now that <title>TWILIGHT IN DELHI</title> has been included in <lb/>the list of books 
                     recommended to the British soldiers <lb/>it should do very well indeed. This list, I find <lb/>will be distributed 
