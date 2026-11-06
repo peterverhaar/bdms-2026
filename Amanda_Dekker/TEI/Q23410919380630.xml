@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q23410919380630">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Barbara Hepworth to Medicinal Women's Federation, June 30th, 1938: A
+                    machine-readable transcription</title>
+                <author>
+                    <persName key="Q234109">Barbara Hepworth</persName>
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version:</resp>
+                    <name>
+                        Amanda Dekker
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup:</resp>
+                    <name>
+                        Amanda Dekker
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations:</resp>
+                    <name>
+                        Amanda Dekker
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    Q23410919380630
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2026</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <persName type="sender" key="Q234109">Barbara Hepworth</persName> to <orgName type="recipient" key="MAPP0017">Medicinal Women's Federation</orgName>, <date when="1938-06-30">30 June 1938</date>
+                    </title>
+                    <author>
+                        <persName key="Q234109">Barbara Hepworth</persName>
+                    </author>
+                    <idno type="callNo">
+                        MS 2750/571/2/7
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2026-2027 Digital Media couse course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/> 
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Barbara Hepworth writes regarding a review of Three Guineas from the Times Literary Supplement and brings attention to the book.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <date when="1938-06-30">
+                            30 June 1938
+                        </date>
+                    </dateline>
+                   
+				   <address>
+						<addrLine>
+							<persName>Dr. Violet Kelynack</persName>
+						</addrLine>
+                        <addrLine>
+                            <orgName>Medicinal Women's Federation</orgName>
+                        </addrLine>
+                        <addrLine>
+							9, Clifford Street
+						</addrLine>
+						<addrLine>
+							Bond Street, W.1.
+						</addrLine>
+                   	 </address>
+					 
+                    <salute>
+                        Dear Madam
+                    </salute>
+                </opener>
+				
+                <p>
+				<persName>Dr. Violet Kelynack</persName>
+				<lb/><choice><sic>Medcial Women's Federation</sic><corr>Medicinal Women's Federation</corr></choice>, 
+				<lb/>9, Clifford Street, 
+				<lb/>Bond Street, W.1. 					<add place="right"><date>June 30th, 1938</date></add>
+				</p>
+				
+				<p>
+				In reply to your card of <date>June 29th</date>, we 
+				<lb/>are inclosing a review copy of <title>Three Guineas</title>. We shall
+				<lb/>be interested to see your Quarterly Review with the
+				<lb/>notice when it appears.
+				</p>
+				
+				<p>
+				As you will see, in <title>Three Guineas</title> <persName key="Q40909">Mrs. 
+				<lb/>Woolf</persName> concerns herself with the present status of women, 
+				<lb/>and with the urgent question <emph rend="underlined">What can a Woman do to Prevent
+				<lb/>War?</emph> Like <title>A ROOM OF ONE'S OWN</title>, <title>Three Guineas</title> is essential 
+				<lb/>reading for any <choice><sic>women</sic><corr>woman</corr></choice>with an interest in present day affairs, 
+				<lb/>and who has not?
+				</p>
+				
+				<p>
+				We are having a number of cards printed
+				<lb/>to bring this book to the attention of an even wider audience than
+				<lb/>it has already obtained, and I am wondering whether you would be
+				<lb/>willing wither to send it out to your members, possibly with 
+				<lb/>material of your own, or if you would provideus with a list to 
+				<lb/>whom we could dispatch.
+				</p>
+				
+				<p>
+				The book was the subject of a leader in a recent
+				<lb/>issue of the <orgName type="Q50008">The Times Literary Supplement</orgName><note><p>The Times Literary Supplement is a renowed British literary and cultural review, founded in 1902</p></note>, in which <persName>Mrs. Woolf</persName> was 
+				<lb/>escribed as the most brilliant pamphleteer in England, and it was
+				<lb/>furthermore suggested that "this brilliant and searching pamphlet
+				<lb/>might mark an epoch in the world's history." Let us hope that 
+				<lb/>this may be so!
+                </p>
+				
+                <closer>
+                    <salute>
+                        Yours very truly
+                    </salute>
+					<positionName>Manager</position>
+					<add place="right"><signed>BH.</signed></add>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
